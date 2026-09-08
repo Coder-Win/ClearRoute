@@ -1,0 +1,174 @@
+{
+  "schema_version": "1.0",
+  "description": "Operational semantic extraction schema for traffic incident narratives.",
+  "fields": {
+    "incident_type": {
+      "type": "string",
+      "allowed_values": [
+        "collision",
+        "disabled_vehicle",
+        "overturned_vehicle",
+        "debris",
+        "fire",
+        "spill",
+        "roadwork",
+        "weather_related",
+        "other",
+        "unknown"
+      ],
+      "evidence_required": true
+    },
+    "heavy_vehicle": {
+      "type": "string",
+      "allowed_values": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "evidence_required_for": [
+        "true",
+        "false"
+      ]
+    },
+    "rollover": {
+      "type": "string",
+      "allowed_values": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "evidence_required_for": [
+        "true",
+        "false"
+      ]
+    },
+    "spill": {
+      "type": "string",
+      "allowed_values": [
+        "true",
+        "false",
+        "suspected",
+        "unknown"
+      ],
+      "evidence_required_for": [
+        "true",
+        "false",
+        "suspected"
+      ]
+    },
+    "fire": {
+      "type": "string",
+      "allowed_values": [
+        "true",
+        "false",
+        "suspected",
+        "unknown"
+      ],
+      "evidence_required_for": [
+        "true",
+        "false",
+        "suspected"
+      ]
+    },
+    "debris": {
+      "type": "string",
+      "allowed_values": [
+        "true",
+        "false",
+        "unknown"
+      ],
+      "evidence_required_for": [
+        "true",
+        "false"
+      ]
+    },
+    "injury": {
+      "type": "string",
+      "allowed_values": [
+        "confirmed",
+        "suspected",
+        "not_reported",
+        "unknown"
+      ],
+      "evidence_required_for": [
+        "confirmed",
+        "suspected",
+        "not_reported"
+      ]
+    },
+    "lanes_blocked": {
+      "type": [
+        "integer",
+        "string"
+      ],
+      "allowed_string_values": [
+        "unknown"
+      ],
+      "minimum": 0,
+      "maximum": 20
+    },
+    "full_road_blockage": {
+      "type": "string",
+      "allowed_values": [
+        "true",
+        "false",
+        "unknown"
+      ]
+    },
+    "ramp_involvement": {
+      "type": "string",
+      "allowed_values": [
+        "true",
+        "false",
+        "unknown"
+      ]
+    },
+    "disabled_vehicle": {
+      "type": "string",
+      "allowed_values": [
+        "true",
+        "false",
+        "unknown"
+      ]
+    },
+    "hazardous_material": {
+      "type": "string",
+      "allowed_values": [
+        "true",
+        "false",
+        "suspected",
+        "unknown"
+      ]
+    },
+    "specialized_recovery_required": {
+      "type": "string",
+      "allowed_values": [
+        "true",
+        "false",
+        "suspected",
+        "unknown"
+      ]
+    },
+    "emergency_response_mentioned": {
+      "type": "string",
+      "allowed_values": [
+        "true",
+        "false",
+        "unknown"
+      ]
+    },
+    "uncertainty_language": {
+      "type": "string",
+      "allowed_values": [
+        "present",
+        "absent"
+      ]
+    }
+  },
+  "output_requirements": {
+    "strict_json": true,
+    "unknown_allowed": true,
+    "evidence_must_be_substring": true,
+    "unsupported_inference_forbidden": true
+  }
+}

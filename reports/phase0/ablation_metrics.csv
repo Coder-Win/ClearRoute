@@ -1,0 +1,7 @@
+Architecture,Dataset,MAE
+Standard Regressor,Dumb Join,628.21650553687
+Standard Regressor,Gated Fusion,628.4864784382265
+AFT Survival,Dumb Join,331.2809087720871
+AFT Survival,Gated Fusion,331.2798013025284
+Quantile Regressor,Dumb Join,331.0570237321518
+Quantile Regressor,Gated Fusion,330.9009256027032

@@ -1,0 +1,20 @@
+[
+  "X",
+  "Y",
+  "CRASH_DATE",
+  "DISTRICT",
+  "COUNTY_NUMBER",
+  "CITY_NUMBER",
+  "SYSTEMSTR",
+  "LITERAL",
+  "LIGHT",
+  "CSRFCND",
+  "WEATHER",
+  "RDTYP",
+  "PAVED",
+  "WZRELATED",
+  "CRASH_DATETIME",
+  "CITY_NAME",
+  "COUNTY_NAME",
+  "CARDINAL"
+]

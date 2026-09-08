@@ -1,0 +1,17 @@
+{
+  "us_accidents": {
+    "rows": 500000,
+    "columns": 44,
+    "valid_duration_rows": 451837,
+    "duration_review_rows": 351,
+    "exact_duplicate_candidate_rows": 2695,
+    "processed_file": "data\\processed\\us_accidents_phase0_processed.parquet"
+  },
+  "iowa": {
+    "rows": 627473,
+    "columns": 61,
+    "clearance_target_detected": false,
+    "clearance_target_status": "No clearance-like column detected",
+    "processed_file": "data\\processed\\iowa_phase0_processed.parquet"
+  }
+}

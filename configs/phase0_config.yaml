@@ -1,0 +1,43 @@
+paths:
+  us_accidents: "data/raw/us_accidents/US_Accidents_March23_sampled_500k.csv"
+  iowa: "data/raw/iowa/Crash_Data_(SOR).csv"
+  output_directory: "reports/phase0"
+  processed_directory: "data/processed"
+
+us_accidents:
+  id_column: "ID"
+  start_time_column: "Start_Time"
+  end_time_column: "End_Time"
+  description_column: "Description"
+  latitude_column: "Start_Lat"
+  longitude_column: "Start_Lng"
+  street_column: "Street"
+  source_column: "Source"
+
+iowa:
+  id_column: "CRASH_KEY"
+  case_number_column: "CASENUMBER"
+  datetime_column: "CRASH_DATETIME"
+  datetime_utc_column: "CRASH_DATETIME_UTC"
+  rest_updated_column: "REST_UPDATED"
+  latitude_candidates:
+    - "Y"
+    - "YCOORD"
+  longitude_candidates:
+    - "X"
+    - "XCOORD"
+
+audit:
+  chunksize: 250000
+  random_seed: 42
+  duplicate_time_tolerance_minutes: 10
+  duplicate_distance_tolerance_km: 0.25
+
+duration:
+  minimum_valid_minutes: 1
+  review_threshold_minutes: 10080
+
+modeling:
+  fused_data: "data/processed/us_accidents_fused_multimodal.csv"
+  dumb_join_data: "data/processed/us_accidents_dumb_join.csv"
+  metrics_report: "reports/phase0/ablation_metrics.csv"

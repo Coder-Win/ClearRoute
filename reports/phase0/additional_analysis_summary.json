@@ -1,0 +1,13 @@
+{
+  "valid_duration_rows": 451837,
+  "mean_minutes": 401.73523494091893,
+  "median_minutes": 62.71666666666667,
+  "q90_minutes": 250.26666666666668,
+  "q95_minutes": 360.0,
+  "q99_minutes": 775.9273333333335,
+  "extreme_duration_counts": {
+    "over_24_hours": 1811,
+    "over_72_hours": 477,
+    "over_7_days": 351
+  }
+}
