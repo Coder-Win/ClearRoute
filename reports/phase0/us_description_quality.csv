@@ -1,0 +1,9 @@
+metric,value
+total_valid_duration_rows,451837.0
+missing_or_empty_descriptions,1.0
+descriptions_under_20_characters,1560.0
+descriptions_under_50_characters,139084.0
+unique_descriptions,373471.0
+rows_with_repeated_descriptions,117166.0
+median_description_length,61.0
+mean_description_length,67.27938172394028

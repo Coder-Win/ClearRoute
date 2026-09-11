@@ -1,0 +1,11 @@
+field,precision,recall,f1_score,support_positive_true,predicted_positive
+heavy_vehicle,1.0,0.6667,0.8,3,2
+rollover,0.0,0.0,0.0,0,0
+spill,1.0,1.0,1.0,1,1
+fire,1.0,1.0,1.0,1,1
+debris,1.0,1.0,1.0,1,1
+lanes_blocked,1.0,0.1596,0.2752,94,15
+full_road_blockage,1.0,0.85,0.9189,20,17
+ramp_involvement,1.0,0.0674,0.1263,89,6
+disabled_vehicle,0.0,0.0,0.0,0,0
+emergency_response_mentioned,0.0,0.0,0.0,2,0

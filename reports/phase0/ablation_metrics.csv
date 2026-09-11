@@ -1,0 +1,5 @@
+Model,MAE
+XGBoost (Dumb Join),220.13496636446092
+XGBoost (Gated Fusion),233.96439959922358
+XGBoost AFT (Survival),119.03527667717015
+CatBoost Quantile (Median),117.99752424752012

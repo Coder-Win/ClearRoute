@@ -1,0 +1,11 @@
+field,Keyword_F1,TFIDF_F1,LLM_F1 (Proposed),Improvement (TFIDF to LLM)
+debris,1.0,1.0,1.0,0.0
+disabled_vehicle,0.0,0.0,1.0,1.0
+emergency_response_mentioned,0.0,0.5714,1.0,0.4286
+fire,1.0,0.5,1.0,0.5
+full_road_blockage,0.9189,0.7027,1.0,0.2973
+heavy_vehicle,0.8,1.0,1.0,0.0
+lanes_blocked,0.2752,0.9305,1.0,0.0695
+ramp_involvement,0.1263,0.954,1.0,0.04600000000000004
+rollover,0.0,0.0,1.0,1.0
+spill,1.0,1.0,1.0,0.0

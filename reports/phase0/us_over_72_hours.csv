@@ -1,0 +1,478 @@
+ID,Source,Severity,Start_Time_parsed,End_Time_parsed,reported_duration_minutes,Description,Street,City,County,State,event_year,split
+A-5399002,Source1,2,2018-04-19 09:24:00,2022-07-20 10:49:45,2236405.75,NYSDOT - Region 10: Crash on NY 27 eastbound area of Exit 66 - North Shore Highway; CR 39; North Shore Road (Suffolk) left lane closed,Inlet Rd W,Southampton,Suffolk,NY,2018.0,train
+A-5292352,Source1,2,2018-04-19 09:24:00,2022-07-20 09:34:38,2236330.6333333333,NYSDOT - Region 10: Crash on NY 27 eastbound area of Exit 66 - North Shore Highway; CR 39; North Shore Road (Suffolk) left lane closed,NY-27 E,Southampton,Suffolk,NY,2018.0,train
+A-7277768,Source1,2,2020-02-27 11:06:26,2023-02-27 12:06:00,1578299.5666666667,At Wells Ave/Exit 14 - Accident.,I-80 E,Reno,Washoe,NV,2020.0,train
+A-3520162,Source1,4,2016-05-05 14:47:55,2018-04-27 16:00:00,1039752.0833333334,Closed between Roanoke Ave and US-1-9-TRUCK/Tonnele Ave - Road closed due to accident. Roadwork.,US-9 N,Newark,Essex,NJ,2016.0,train
+A-3825588,Source1,2,2020-10-13 19:19:34,2022-04-15 14:43:16,790283.7,A disabled vehicle is creating a hazard. Use caution., N Santiam Hwy,Detroit,Marion,OR,2020.0,train
+A-3899728,Source1,2,2021-05-28 05:23:00,2022-10-16 10:53:36,728970.6,Construction on US-13 SB near SCHOOL LN Expect long delays.,N Dupont Hwy,New Castle,New Castle,DE,2021.0,validation
+A-3572241,Source1,4,2016-01-14 20:18:33,2017-02-17 23:22:00,576183.45,Closed at Fullerton Ave - Road closed due to accident. Roadwork. Lane blocked.,US-22 E,Whitehall,Lehigh,PA,2016.0,train
+A-4710354,Source1,2,2020-12-30 22:58:00,2022-01-30 00:54:42,568916.7,Construction on I-495 NB near YALE AVE Right lane blocked. Expect delays.,I-495,Wilmington,New Castle,DE,2020.0,train
+A-3558690,Source1,4,2016-01-14 20:18:33,2017-01-30 13:25:19,549666.7666666667,Closed at Fullerton Ave - Road closed due to accident. Roadwork. Lane blocked.,US-22 E,Whitehall,Lehigh,PA,2016.0,train
+A-6371292,Source1,2,2020-05-23 09:23:48,2021-06-01 10:45:00,538641.2,All Tribal lands and Bureau of Indian Affairs roads on the Warm Springs Reservation are. closed to non-tribal public. Local traffic only.,Warm Springs Hwy,Maupin,Wasco,OR,2020.0,train
+A-4783324,Source1,2,2022-02-03 08:08:00,2023-02-04 10:21:00,527173.0,Incident on I-20 EB near COMMON ST Expect long delays.,I-20 E,Shreveport,Caddo,LA,2022.0,calibration
+A-5582249,Source1,2,2021-11-27 15:52:00,2022-11-28 17:49:00,527157.0,Incident on I-20 WB near PINES RD Drive with caution.,I-20,Shreveport,Caddo,LA,2021.0,validation
+A-6230031,Source1,2,2021-07-25 15:25:00,2022-07-26 17:15:00,527150.0,Incident on I-20 EB near TRAFFIC ST Expect long delays.,I-20 E,Shreveport,Caddo,LA,2021.0,validation
+A-5562692,Source1,4,2021-05-15 03:24:30,2022-05-15 23:59:59,526835.4833333333,I-65 S is closed from Pennsylvania St/Exit 113 (I-65) to I-70/Exit 111 (I-65) due to accident.,I-65 S,Indianapolis,Marion,IN,2021.0,validation
+A-6057612,Source1,2,2021-07-12 12:07:00,2022-07-12 15:07:00,525780.0,Construction on US-61 NB near SPRINGFIELD RD Road closed. Take alternate route., Scenic Hwy,Baton Rouge,East Baton Rouge,LA,2021.0,validation
+A-5770467,Source1,2,2021-05-28 14:07:00,2022-05-28 16:24:00,525737.0,Construction on LA-3132 EB near LA-526 Road closed. Take alternate route.,Inner Loop Expy E,Shreveport,Caddo,LA,2021.0,validation
+A-6334806,Source1,2,2021-12-06 14:33:00,2022-12-06 16:38:00,525725.0,Construction on I-110 SB near LA-67 Road closed. Take alternate route.,I-110 S,Baton Rouge,East Baton Rouge,LA,2021.0,validation
+A-5969861,Source1,2,2021-12-23 09:30:59,2022-12-23 11:27:00,525716.0166666667,Incident on I-10 WB near FLORIDA BLVD EXIT Drive with caution.,I-10 W,Metairie,Jefferson,LA,2021.0,validation
+A-6239748,Source1,2,2021-10-27 00:26:00,2022-10-27 02:18:00,525712.0,Construction on I-10 EB near CITY PARK LAKE Road closed. Take alternate route.,I-10 E,Baton Rouge,East Baton Rouge,LA,2021.0,validation
+A-6242842,Source1,2,2021-03-17 19:10:00,2022-03-17 21:00:00,525710.0,Incident on I-10 EB near I-10 Expect long delays.,I-10,Baton Rouge,East Baton Rouge,LA,2021.0,validation
+A-6374702,Source1,2,2021-02-21 19:09:00,2022-02-21 20:58:00,525709.0,Incident on I-10 WB near MISSISSIPPI RIVER Right lane blocked. Expect delays.,I-10 W,Baton Rouge,East Baton Rouge,LA,2021.0,validation
+A-5712476,Source1,2,2021-07-07 11:43:00,2022-07-07 13:30:00,525707.0,Incident on LA-182 EB near BAYOU BLACK DR Right lane blocked. Expect delays., Barrow St,Houma,Terrebonne,LA,2021.0,validation
+A-4342264,Source1,2,2022-03-07 22:29:00,2023-03-08 00:14:00,525705.0,Incident on I-10 EB near LA-397 Expect long delays.,I-10,Lake Charles,Calcasieu,LA,2022.0,calibration
+A-6501428,Source1,2,2021-01-16 12:45:00,2022-01-16 14:30:00,525705.0,Incident on I-610 EB near LONDON AVE CANAL Drive with caution.,I-610 E,New Orleans,Orleans,LA,2021.0,validation
+A-5809998,Source1,2,2021-09-25 02:46:00,2022-09-25 04:31:00,525705.0,Incident on I-10 EB near MAXENT CANAL Right lane blocked. Expect delays.,I-10 E,New Orleans,Orleans,LA,2021.0,validation
+A-4866038,Source1,2,2022-01-02 05:29:00,2023-01-02 07:14:00,525705.0,Incident on US-90 WB near MARTIN LUTHER KING JR BLVD Left lane blocked.,US-90,New Orleans,Orleans,LA,2022.0,calibration
+A-5673727,Source1,2,2021-05-01 17:18:00,2022-05-01 19:03:00,525705.0,Construction on I-10 EB near ATCHAFALAYA RIVER Road closed. Take alternate route.,I-10,Grosse Tete,Iberville,LA,2021.0,validation
+A-5751680,Source1,2,2021-09-13 15:22:00,2022-09-13 17:07:00,525705.0,Incident on I-210 EB near PRIEN LAKE Right lane blocked. Expect delays.,I-210 E,Westlake,Calcasieu,LA,2021.0,validation
+A-4785479,Source1,2,2022-03-19 20:06:00,2023-03-19 21:51:00,525705.0,Incident on US-90 EB near THALIA ST Expect long delays.,S Claiborne Ave,New Orleans,Orleans,LA,2022.0,calibration
+A-6715030,Source1,2,2020-09-15 00:12:00,2021-09-15 01:57:00,525705.0,Incident on I-10 EB near CONWAY BAYOU Right lane blocked. Expect delays.,I-10 E,Garyville,St. John the Baptist,LA,2020.0,train
+A-6306711,Source1,2,2021-07-01 12:51:00,2022-07-01 14:36:00,525705.0,Construction on I-210 WB near CAMERON (LA-14) Road closed. Take alternate route.,I-210,Lake Charles,Calcasieu,LA,2021.0,validation
+A-6574083,Source1,2,2020-12-31 19:00:00,2021-12-31 20:45:00,525705.0,Incident on I-20 WB near FLAT RIVER Left lane blocked.,I-20 W,Bossier City,Bossier,LA,2020.0,train
+A-6193823,Source1,2,2021-12-04 06:56:00,2022-12-04 08:41:00,525705.0,Incident on I-12 WB near BLOOD RIVER Right lane blocked. Expect delays.,I-12 W,Holden,Livingston,LA,2021.0,validation
+A-5065513,Source1,2,2022-01-10 08:55:00,2023-01-10 10:40:00,525705.0,Construction on I-20 EB near CLARKE BAYOU Road closed. Take alternate route.,I-20,Minden,Webster,LA,2022.0,calibration
+A-6144170,Source1,2,2021-05-09 17:00:00,2022-05-09 18:45:00,525705.0,Construction on I-10 EB near LOYOLA DRIVE Road closed. Take alternate route.,I-10,Kenner,Jefferson,LA,2021.0,validation
+A-5940509,Source1,2,2021-10-28 08:57:00,2022-10-28 10:42:00,525705.0,Incident on I-220 WB near CROSS LAKE Left lane blocked.,I-220 W,Shreveport,Caddo,LA,2021.0,validation
+A-6106262,Source1,2,2021-08-15 15:34:00,2022-08-15 17:19:00,525705.0,Construction on I-10 WB near COLLEGE DR Road closed. Take alternate route.,I-10,Baton Rouge,East Baton Rouge,LA,2021.0,validation
+A-6053880,Source1,2,2021-09-28 15:56:00,2022-09-28 17:41:00,525705.0,Construction on US-190 EB near SANCHEZ ST Road closed. Take alternate route.,Airline Hwy,Baton Rouge,East Baton Rouge,LA,2021.0,validation
+A-5620031,Source1,2,2021-09-08 17:25:00,2022-09-08 19:10:00,525705.0,Construction on US-90 EB near FOLSE BAYOU Road closed. Take alternate route., Highway 90 E,Des Allemands,Lafourche,LA,2021.0,validation
+A-6499317,Source1,2,2021-01-18 00:58:00,2022-01-18 02:43:00,525705.0,Incident on I-10 EB near VETERANS BLVD Right lane blocked. Expect delays.,I-10 E,Metairie,Jefferson,LA,2021.0,validation
+A-4783946,Source1,2,2022-01-19 13:35:00,2023-01-19 15:20:00,525705.0,Incident on LA-28 WB near LA-3054 Right lane blocked. Expect delays., Coliseum Blvd,Alexandria,Rapides,LA,2022.0,calibration
+A-5986230,Source1,2,2021-11-24 17:44:00,2022-11-24 19:29:00,525705.0,Construction on US-61 SB near I-10 Road closed. Take alternate route.,US-61,St Amant,Ascension,LA,2021.0,validation
+A-3996914,Source1,2,2022-01-11 05:49:00,2023-01-11 07:34:00,525705.0,Incident on US-90-BR EB near I-10 Left lane blocked.,Pontchartrain Expy E,New Orleans,Orleans,LA,2022.0,calibration
+A-5492571,Source1,2,2021-09-25 07:48:00,2022-09-25 09:33:00,525705.0,Incident on I-10 WB near ACADIA LAFAYETTE PARISH LINE Right lane blocked. Expect delays.,I-10 W,Scott,Lafayette,LA,2021.0,validation
+A-6133714,Source1,4,2021-06-09 17:30:00,2022-06-09 19:15:00,525705.0,Construction on I-220 EB near TWELVEMILE BAYOU Road closed. Take alternate route.,I-220,Bossier City,Bossier,LA,2021.0,validation
+A-6843319,Source1,2,2020-09-12 03:19:00,2021-09-12 05:04:00,525705.0,Incident on I-220 WB near LA-3105 Right lane blocked. Expect delays.,I-220 W,Bossier City,Bossier,LA,2020.0,train
+A-5842662,Source1,2,2021-05-27 06:43:00,2022-05-27 08:28:00,525705.0,Incident on I-12 EB near LA-43 Right lane blocked. Expect delays.,I-12 E,Hammond,Tangipahoa,LA,2021.0,validation
+A-6968076,Source1,2,2020-10-09 11:25:00,2021-10-09 13:10:00,525705.0,Incident on I-610 EB near LONDON AVE CANAL Drive with caution.,I-610 E,New Orleans,Orleans,LA,2020.0,train
+A-6704139,Source1,4,2020-10-27 21:49:00,2021-10-27 23:34:00,525705.0,Construction on I-10 WB near MISSISSIPPI RIVER Road closed. Take alternate route.,I-10 W,Baton Rouge,East Baton Rouge,LA,2020.0,train
+A-5932709,Source1,2,2021-06-11 15:14:00,2022-06-11 16:59:00,525705.0,Incident on I-210 EB near BROAD ST Left lane blocked.,I-210,Lake Charles,Calcasieu,LA,2021.0,validation
+A-5749164,Source1,2,2021-09-15 10:57:00,2022-09-15 12:42:00,525705.0,Construction on I-10 EB near LA-1 Road closed. Take alternate route.,I-10 E,Port Allen,West Baton Rouge,LA,2021.0,validation
+A-5771859,Source1,2,2021-09-18 05:45:00,2022-09-18 07:30:00,525705.0,Incident on I-10 EB near OLD NEW RIVER Left lane blocked.,I-10,Laplace,St John the Baptist,LA,2021.0,validation
+A-6174084,Source1,2,2021-07-09 15:25:00,2022-07-09 17:10:00,525705.0,Incident on I-20 EB near HAMILTON RD Drive with caution.,I-20 E,Bossier City,Bossier,LA,2021.0,validation
+A-6345012,Source1,4,2021-01-31 23:38:00,2022-02-01 01:23:00,525705.0,Construction on I-10 EB near PERKINS RD Road closed. Take alternate route.,I-10,Baton Rouge,East Baton Rouge,LA,2021.0,validation
+A-6693789,Source1,2,2020-10-21 23:54:00,2021-10-22 01:39:00,525705.0,Construction on I-10 EB near LA-347 Road closed. Take alternate route.,I-10 E,Breaux Bridge,St. Martin,LA,2020.0,train
+A-5908110,Source1,2,2021-10-15 23:58:00,2022-10-16 01:43:00,525705.0,Construction on I-59 SB near W PEARL RIVER Road closed. Take alternate route.,I-59,Pearl River,St Tammany,LA,2021.0,validation
+A-6940296,Source1,2,2020-11-09 22:43:00,2021-11-10 00:28:00,525705.0,Incident on I-10 WB near LAKE PONTCHARTRAIN Drive with caution.,I-10 W,Slidell,St. Tammany,LA,2020.0,train
+A-5631028,Source1,2,2021-11-20 23:40:00,2022-11-21 01:25:00,525705.0,Incident on I-10 EB near LA-3188 Left lane blocked.,I-10 E,Norco,St. Charles,LA,2021.0,validation
+A-6202713,Source1,2,2021-12-29 11:48:00,2022-12-29 13:33:00,525705.0,Incident on I-10 WB near WING GULLY Expect long delays.,I-10,Vinton,Calcasieu,LA,2021.0,validation
+A-6250515,Source1,2,2021-10-23 22:23:00,2022-10-24 00:08:00,525705.0,Incident on I-10 EB near LITTLE IRISH BAYOU Left lane blocked.,I-10 E,New Orleans,Orleans,LA,2021.0,validation
+A-3961616,Source1,2,2022-03-11 20:27:00,2023-03-11 22:12:00,525705.0,Construction on LA-946 WB near TYNEWOOD AVE Road closed. Take alternate route., Joor Rd,Baton Rouge,East Baton Rouge,LA,2022.0,calibration
+A-5561856,Source1,2,2021-09-23 05:14:00,2022-09-23 06:59:00,525705.0,Incident on I-10 WB near MORRISON RD Right lane blocked. Expect delays.,I-10,New Orleans,Orleans,LA,2021.0,validation
+A-6844479,Source1,2,2020-10-28 01:16:00,2021-10-28 03:01:00,525705.0,Incident on I-12 WB near LACOMBE BAYOU Drive with caution.,I-12 W,Mandeville,St. Tammany,LA,2020.0,train
+A-6116826,Source1,2,2021-09-15 05:58:00,2022-09-15 07:43:00,525705.0,Incident on US-90-BR EB near US-90 Left lane blocked.,Pontchartrain Expy W,New Orleans,Orleans,LA,2021.0,validation
+A-5758145,Source1,2,2021-10-28 16:07:00,2022-10-28 17:52:00,525705.0,Incident on I-12 WB near LA-43 Left lane blocked.,I-12,Hammond,Tangipahoa,LA,2021.0,validation
+A-5975559,Source1,2,2021-11-02 17:28:00,2022-11-02 19:13:00,525705.0,Construction on I-10 EB near US-190 Road closed. Take alternate route.,I-10,Slidell,St Tammany,LA,2021.0,validation
+A-6549307,Source1,2,2021-01-01 13:55:00,2022-01-01 15:40:00,525705.0,Incident on I-10 WB near I-610 Left lane blocked.,I-10 W,New Orleans,Orleans,LA,2021.0,validation
+A-6837527,Source1,2,2020-11-17 13:48:00,2021-11-17 15:33:00,525705.0,Incident on I-12 WB near LA-447 Right lane blocked. Expect delays.,I-12 W,Walker,Livingston,LA,2020.0,train
+A-6752675,Source1,2,2020-09-30 06:21:00,2021-09-30 08:06:00,525705.0,Construction on I-610 WB near ORLEANS CANAL Road closed. Take alternate route.,I-610 W,New Orleans,Orleans,LA,2020.0,train
+A-4436066,Source1,4,2022-02-18 06:55:00,2023-02-18 08:40:00,525705.0,Construction on I-10 WB near BAYOU LA BRANCH Road closed. Take alternate route.,I-10,Laplace,St John the Baptist,LA,2022.0,calibration
+A-6831335,Source1,2,2020-12-21 23:14:00,2021-12-22 00:59:00,525705.0,Incident on I-20 EB near LA-157 Left lane blocked.,I-20 E,Haughton,Bossier,LA,2020.0,train
+A-6721707,Source1,2,2020-12-31 18:45:00,2021-12-31 20:30:00,525705.0,Construction on I-10 EB near VERMILION RIVER Road closed. Take alternate route.,I-10 E,Breaux Bridge,St. Martin,LA,2020.0,train
+A-5624544,Source1,4,2021-06-04 14:14:00,2022-06-04 15:59:00,525705.0,Construction on I-10 WB near CALCASIEU RIVER Road closed. Take alternate route., Front St,Lake Charles,Calcasieu,LA,2021.0,validation
+A-5904176,Source1,2,2021-07-26 21:30:00,2022-07-26 23:15:00,525705.0,Incident on I-12 EB near COLYELL CRK Right lane blocked. Expect delays.,I-12,Walker,Livingston,LA,2021.0,validation
+A-6304725,Source1,2,2021-11-12 17:15:00,2022-11-12 19:00:00,525705.0,Construction on I-12 EB near HOG BRANCH Road closed. Take alternate route.,I-12,Livingston,Livingston,LA,2021.0,validation
+A-5555059,Source1,2,2021-06-06 10:49:00,2022-06-06 12:34:00,525705.0,Incident on I-12 WB near LA-3002 Left lane blocked.,I-12,Denham Springs,Livingston,LA,2021.0,validation
+A-6464595,Source1,2,2021-02-02 15:58:00,2022-02-02 17:43:00,525705.0,Incident on LA-70 WB near ASCENSION ST JAMES PARISH LINE Left lane blocked.,LA-70,Convent,St James,LA,2021.0,validation
+A-5679277,Source1,2,2021-10-18 07:49:00,2022-10-18 09:34:00,525705.0,Incident on I-20 WB near FLAT RIVER Left lane blocked.,I-20 W,Bossier City,Bossier,LA,2021.0,validation
+A-6034936,Source1,2,2021-10-16 23:33:00,2022-10-17 01:18:00,525705.0,Construction on I-10 WB near FRANKLIN AVE Road closed. Take alternate route.,I-10 W,New Orleans,Orleans,LA,2021.0,validation
+A-6427821,Source1,2,2021-01-19 01:19:00,2022-01-19 03:04:00,525705.0,Incident on I-10 EB near OPELOUSAS ST Expect long delays.,US-90 E,Lake Charles,Calcasieu,LA,2021.0,validation
+A-4026935,Source1,4,2022-02-12 06:49:00,2023-02-12 08:34:00,525705.0,Construction on I-10 WB near D'LNDE BAYOU Road closed. Take alternate route.,I-10,Sulphur,Calcasieu,LA,2022.0,calibration
+A-5676353,Source1,2,2021-09-24 00:47:00,2022-09-24 02:32:00,525705.0,Incident on I-10 EB near LAKE PONTCHARTRAIN Expect long delays.,I-10 E,New Orleans,St. Tammany,LA,2021.0,validation
+A-6947612,Source1,2,2020-12-08 02:23:00,2021-12-08 04:08:00,525705.0,Incident on I-10 WB near MISSISSIPPI RIVER Drive with caution.,I-10 W,Baton Rouge,East Baton Rouge,LA,2020.0,train
+A-6323457,Source1,2,2021-06-18 09:00:00,2022-06-18 10:45:00,525705.0,Incident on I-10 WB near CANAL NO 17 Right lane blocked. Expect delays.,I-10,St Rose,St Charles,LA,2021.0,validation
+A-5773058,Source1,2,2021-11-21 02:34:00,2022-11-21 04:19:00,525705.0,Incident on I-10 EB near MARTIN PARISH LINE Right lane blocked. Expect delays.,I-10,Grosse Tete,Iberville,LA,2021.0,validation
+A-6562815,Source1,2,2021-02-23 17:27:00,2022-02-23 19:12:00,525705.0,Incident on I-10 EB near MIDDLE RIVER Left lane blocked.,I-10 E,Slidell,St. Tammany,LA,2021.0,validation
+A-6843660,Source1,2,2020-12-24 09:26:00,2021-12-24 11:11:00,525705.0,Incident on I-10 EB near MISSISSIPPI RIVER Right lane blocked. Expect delays.,I-10 E,Baton Rouge,East Baton Rouge,LA,2020.0,train
+A-6598792,Source1,2,2020-11-29 02:37:00,2021-11-29 04:22:00,525705.0,Incident on I-10 WB near LOUISE ST Left lane blocked.,I-10 W,Baton Rouge,East Baton Rouge,LA,2020.0,train
+A-5534294,Source1,2,2021-05-29 01:05:00,2022-05-29 02:50:00,525705.0,Incident on I-10 EB near ELTON RD Drive with caution.,I-10,Welsh,Jefferson Davis,LA,2021.0,validation
+A-5631920,Source1,2,2021-07-17 11:40:00,2022-07-17 13:25:00,525705.0,Incident on I-210 EB near D'LNDE BAYOU Right lane blocked. Expect delays.,I-210 E,Westlake,Calcasieu,LA,2021.0,validation
+A-6418970,Source1,2,2021-01-23 18:43:00,2022-01-23 20:28:00,525705.0,Incident on I-20 WB near RED RIVER Right lane blocked. Expect delays.,I-20 W,Bossier City,Bossier,LA,2021.0,validation
+A-6396970,Source1,2,2021-01-14 04:52:00,2022-01-14 06:37:00,525705.0,Construction on I-10 WB near LA-347 Road closed. Take alternate route.,I-10 W,Breaux Bridge,St. Martin,LA,2021.0,validation
+A-4795971,Source1,2,2022-01-13 16:03:00,2023-01-13 17:48:00,525705.0,Incident on I-12 WB near TANGIPAHOA RIVER Right lane blocked. Expect delays.,I-12,Hammond,Tangipahoa,LA,2022.0,calibration
+A-4210709,Source1,2,2022-01-26 16:10:00,2023-01-26 17:55:00,525705.0,Incident on I-59 SB near W PEARL RIVER Right lane blocked. Expect delays.,I-59,Pearl River,St Tammany,LA,2022.0,calibration
+A-6635514,Source1,2,2020-10-16 22:39:00,2021-10-17 00:24:00,525705.0,Incident on I-20 WB near FLAT RIVER Right lane blocked. Expect delays.,I-20,Bossier City,Bossier,LA,2020.0,train
+A-6870457,Source1,2,2020-11-17 06:47:00,2021-11-17 08:32:00,525705.0,Incident on I-10 EB near MORRISON RD Drive with caution.,I-10 E,New Orleans,Orleans,LA,2020.0,train
+A-3829882,Source1,2,2022-02-10 17:40:00,2023-02-10 19:25:00,525705.0,Incident on US-61 NB near LA-426 Right lane blocked. Expect delays., Airline Hwy,Baton Rouge,East Baton Rouge,LA,2022.0,calibration
+A-6343025,Source1,2,2021-02-06 19:11:00,2022-02-06 20:56:00,525705.0,Incident on I-12 WB near US-61 Drive with caution.,I-12,Baton Rouge,East Baton Rouge,LA,2021.0,validation
+A-6607209,Source1,2,2020-10-04 13:40:00,2021-10-04 15:25:00,525705.0,Incident on I-10 EB near LA-30 Right lane blocked. Expect delays.,I-10 E,Port Allen,West Baton Rouge,LA,2020.0,train
+A-6313691,Source1,2,2021-08-14 13:30:00,2022-08-14 15:15:00,525705.0,Incident on US-61 NB near I-110 Right lane blocked. Expect delays.,Scenic Hwy,Baton Rouge,East Baton Rouge,LA,2021.0,validation
+A-5944702,Source1,2,2021-08-21 14:54:00,2022-08-21 16:39:00,525705.0,Incident on LA-1 SB near LA-523 Left lane blocked., Youree Dr,Shreveport,Caddo,LA,2021.0,validation
+A-5616533,Source1,2,2021-05-31 17:37:00,2022-05-31 19:22:00,525705.0,Incident on I-20 WB near TRAFFIC ST Right lane blocked. Expect delays.,I-20 W,Bossier City,Bossier,LA,2021.0,validation
+A-6009069,Source1,2,2021-04-30 14:48:00,2022-04-30 16:33:00,525705.0,Construction on LA-73 NB near C BRAUD RD Road closed. Take alternate route., LA-73,Geismar,Ascension,LA,2021.0,validation
+A-6764214,Source1,2,2020-11-30 01:02:00,2021-11-30 02:47:00,525705.0,Incident on I-10 WB near WESTLAKE (LA-378) Drive with caution.,I-10 W,Lake Charles,Calcasieu,LA,2020.0,train
+A-5675791,Source1,2,2021-10-23 10:08:00,2022-10-23 11:53:00,525705.0,Incident on US-90-BR WB near LOYOLA AVE Right lane blocked. Expect delays.,Pontchartrain Expy,New Orleans,Orleans,LA,2021.0,validation
+A-5664295,Source1,2,2021-06-07 08:03:00,2022-06-07 09:48:00,525705.0,Incident on LA-488 WB near BRUYNINCKX RD Drive with caution., Twin Bridges Rd,Alexandria,Rapides,LA,2021.0,validation
+A-6901282,Source1,2,2020-12-24 01:52:00,2021-12-24 03:37:00,525705.0,Incident on I-10 EB near LA-3188 Left lane blocked.,I-10 E,Saint Rose,St. Charles,LA,2020.0,train
+A-6074812,Source1,2,2021-07-16 04:57:00,2022-07-16 06:42:00,525705.0,Construction on US-63 SB near LA-9 Road closed. Take alternate route., E 4th St,Lillie,Union,LA,2021.0,validation
+A-6618821,Source1,2,2020-09-29 02:02:00,2021-09-29 03:47:00,525705.0,Incident on I-20 WB near LA-145 Drive with caution.,I-20 W,Calhoun,Ouachita,LA,2020.0,train
+A-6649489,Source1,2,2020-09-23 22:53:00,2021-09-24 00:38:00,525705.0,Incident on I-210 WB near BAYOU CONTRABAND Right lane blocked. Expect delays.,I-210 W,Lake Charles,Calcasieu,LA,2020.0,train
+A-6174608,Source1,2,2021-05-07 15:06:00,2022-05-07 16:51:00,525705.0,Construction on I-10 EB near ATCHAFALAYA RIVER Road closed. Take alternate route.,I-10,Grosse Tete,Iberville,LA,2021.0,validation
+A-6600252,Source1,2,2020-10-17 17:46:00,2021-10-17 19:31:00,525705.0,Incident on I-10 WB near GROSSE TETE (LA-77) Left lane blocked.,I-10 W,Port Allen,West Baton Rouge,LA,2020.0,train
+A-6874023,Source1,2,2020-12-22 22:24:00,2021-12-23 00:09:00,525705.0,Incident on LA-1 NB near PORT ALLEN CANAL Right lane blocked. Expect delays.,LA Highway 1 S,Port Allen,West Baton Rouge,LA,2020.0,train
+A-6679378,Source1,2,2020-12-10 01:34:00,2021-12-10 03:19:00,525705.0,Incident on I-20 WB near FIFI BAYOU Drive with caution.,I-20 W,Bossier City,Bossier,LA,2020.0,train
+A-6127431,Source1,2,2021-05-24 14:35:00,2022-05-24 16:20:00,525705.0,Construction on US-190 WB near LA-983 Road closed. Take alternate route., Highway 190 W,Port Allen,West Baton Rouge,LA,2021.0,validation
+A-5826801,Source1,2,2021-02-19 03:06:00,2022-02-19 04:51:00,525705.0,Construction on I-10 EB near LAKE BIGEAUX Expect long delays.,I-10,Breaux Bridge,St Martin,LA,2021.0,validation
+A-4729903,Source1,2,2022-01-04 15:23:00,2023-01-04 17:08:00,525705.0,Incident on I-10 EB near SUBURBAN CANAL Left lane blocked.,I-10 E,Metairie,Jefferson,LA,2022.0,calibration
+A-5230622,Source1,2,2022-03-21 10:40:00,2023-03-21 12:25:00,525705.0,Incident on I-12 EB near LA-1077 Right lane blocked. Expect delays.,I-12 E,Ponchatoula,Tangipahoa,LA,2022.0,calibration
+A-5553029,Source1,2,2021-03-18 07:01:00,2022-03-18 08:46:00,525705.0,Incident on I-10 EB near I-610 Right lane blocked. Expect delays.,I-10 E,Metairie,Jefferson,LA,2021.0,validation
+A-5607989,Source1,2,2021-07-09 14:19:00,2022-07-09 16:04:00,525705.0,Incident on I-20 EB near LA-72 Right lane blocked. Expect delays.,I-20 E,Bossier City,Bossier,LA,2021.0,validation
+A-6749437,Source1,2,2020-11-29 15:38:00,2021-11-29 17:23:00,525705.0,Incident on I-10 WB near ATCHAFALAYA BASIN MAIN CHANNEL Left lane blocked.,I-10 W,Breaux Bridge,St. Martin,LA,2020.0,train
+A-6675357,Source1,2,2020-10-26 00:48:00,2021-10-26 02:33:00,525705.0,Incident on I-20 EB near JEWELLA AVE Drive with caution.,I-20 E,Shreveport,Caddo,LA,2020.0,train
+A-6591069,Source1,2,2021-01-01 01:24:00,2022-01-01 03:09:00,525705.0,Construction on I-49 SB near LA-3250 Road closed. Take alternate route.,I-49 S,Alexandria,Rapides,LA,2021.0,validation
+A-5991629,Source1,2,2021-09-19 18:31:00,2022-09-19 20:16:00,525705.0,Incident on I-10 WB near LA-395 Left lane blocked.,I-10,Welsh,Jefferson Davis,LA,2021.0,validation
+A-5890946,Source1,4,2021-12-22 19:14:00,2022-12-22 20:59:00,525705.0,Construction on US-61 NB near VICTORIA DR Road closed. Take alternate route., Airline Hwy,Baton Rouge,East Baton Rouge,LA,2021.0,validation
+A-6311438,Source1,4,2021-12-01 17:18:00,2022-12-01 19:03:00,525705.0,Construction on I-10 WB near VERDINE BAYOU Road closed. Take alternate route.,I-10 W,Westlake,Calcasieu,LA,2021.0,validation
+A-6708674,Source1,2,2020-11-29 15:57:00,2021-11-29 17:42:00,525705.0,Construction on I-610 EB near LONDON AVE CANAL Road closed. Take alternate route.,I-610 E,New Orleans,Orleans,LA,2020.0,train
+A-5603984,Source1,4,2021-09-30 16:01:00,2022-09-30 17:46:00,525705.0,Construction on I-10 WB near ACADIA LAFAYETTE PARISH LINE Road closed. Take alternate route.,I-10 W,Rayne,Acadia,LA,2021.0,validation
+A-5753429,Source1,2,2021-10-31 21:36:00,2022-10-31 23:21:00,525705.0,Construction on I-10 WB near ATCHAFALAYA BASIN MAIN CHANNEL Road closed. Take alternate route.,Bayou Teche Scenic Bywy,Breaux Bridge,St Martin,LA,2021.0,validation
+A-6797968,Source1,2,2020-11-09 19:19:00,2021-11-09 21:04:00,525705.0,Construction on I-10 WB near LA-91 Road closed. Take alternate route.,I-10 W,Crowley,Acadia,LA,2020.0,train
+A-6382979,Source1,2,2021-01-24 12:36:00,2022-01-24 14:21:00,525705.0,Construction on I-10 WB near VETERANS BLVD Road closed. Take alternate route.,I-10 W,Metairie,Jefferson,LA,2021.0,validation
+A-6072001,Source1,4,2021-11-06 21:30:00,2022-11-06 23:15:00,525705.0,Construction on I-55 NB near MANCHAC Road closed. Take alternate route.,I-55 N,LA Place,St. John the Baptist,LA,2021.0,validation
+A-5765253,Source1,2,2021-11-18 16:43:00,2022-11-18 18:28:00,525705.0,Construction on I-10 EB near BAYOU MANCHAC Road closed. Take alternate route.,I-10 E,Baton Rouge,East Baton Rouge,LA,2021.0,validation
+A-4411126,Source1,2,2022-02-03 12:13:00,2023-02-03 13:58:00,525705.0,Incident on I-10 WB near SAINT BERNARD AVE Drive with caution.,I-10,New Orleans,Orleans,LA,2022.0,calibration
+A-6061040,Source1,2,2021-04-16 17:38:00,2022-04-16 19:23:00,525705.0,Incident on I-10 EB near RIDGEWAY BLVD Right lane blocked. Expect delays.,I-10 E,New Orleans,Orleans,LA,2021.0,validation
+A-5605731,Source1,2,2021-08-13 17:14:00,2022-08-13 18:59:00,525705.0,Incident on I-49 SB near COTTONWOOD BAYOU Right lane blocked. Expect delays.,I-49,Shreveport,Caddo,LA,2021.0,validation
+A-6502907,Source1,2,2021-01-29 11:31:00,2022-01-29 13:16:00,525705.0,Incident on I-10 WB near HAMPTON COULEE Right lane blocked. Expect delays.,I-10 W,Vinton,Calcasieu,LA,2021.0,validation
+A-6099862,Source1,2,2021-09-09 16:01:00,2022-09-09 17:46:00,525705.0,Incident on I-10 WB near MISSISSIPPI RIVER Expect long delays.,I-10,Baton Rouge,East Baton Rouge,LA,2021.0,validation
+A-5644431,Source1,2,2021-05-14 13:33:00,2022-05-14 15:18:00,525705.0,Construction on I-12 EB near US-190 Road closed. Take alternate route.,I-12,Covington,St Tammany,LA,2021.0,validation
+A-6648634,Source1,2,2020-10-27 02:57:00,2021-10-27 04:42:00,525705.0,Construction on US-61 NB near BLOUNT RD Road closed. Take alternate route.,Scenic Hwy,Baton Rouge,East Baton Rouge,LA,2020.0,train
+A-6799215,Source1,2,2020-09-12 14:07:00,2021-09-12 15:52:00,525705.0,Incident on I-10 WB near SMITH BAYOU Drive with caution.,I-10 W,Prairieville,Ascension,LA,2020.0,train
+A-6734909,Source1,2,2020-11-10 23:03:00,2021-11-11 00:48:00,525705.0,Incident on I-10 WB near LOYOLA DRIVE Right lane blocked. Expect delays.,I-10 W,Kenner,Jefferson,LA,2020.0,train
+A-5671662,Source1,2,2021-10-08 16:43:00,2022-10-08 18:28:00,525705.0,Incident on I-10 EB near COON GULLY Left lane blocked.,I-10 E,Sulphur,Calcasieu,LA,2021.0,validation
+A-5948574,Source1,2,2021-11-30 08:15:00,2022-11-30 10:00:00,525705.0,Incident on I-10 WB near JAHNCKE CANAL Left lane blocked.,I-10 W,New Orleans,Orleans,LA,2021.0,validation
+A-6486848,Source1,2,2021-01-20 01:37:00,2022-01-20 03:22:00,525705.0,Incident on I-10 WB near LAFAYETTE ST MARTIN PARISH LINE Right lane blocked. Expect delays.,I-10 W,Lafayette,Lafayette,LA,2021.0,validation
+A-6907527,Source1,2,2020-12-23 20:29:00,2021-12-23 22:14:00,525705.0,Incident on I-10 WB near MORRISON RD Right lane blocked. Expect delays.,I-10 W,New Orleans,Orleans,LA,2020.0,train
+A-5673666,Source1,2,2021-11-26 20:20:00,2022-11-26 22:05:00,525705.0,Construction on I-10 WB near ASCENSION ST JAMES PARISH LINE Road closed. Take alternate route.,I-10,Sorrento,Ascension,LA,2021.0,validation
+A-6179754,Source1,2,2021-04-27 15:42:00,2022-04-27 17:27:00,525705.0,Incident on I-610 WB near ORLEANS CANAL Right lane blocked. Expect delays.,I-610 W,New Orleans,Orleans,LA,2021.0,validation
+A-6965258,Source1,2,2020-11-27 07:53:00,2021-11-27 09:38:00,525705.0,Incident on I-10 EB near INNER HARBOR NAVIGATION CANAL Expect long delays.,I-10 E,New Orleans,Orleans,LA,2020.0,train
+A-6399375,Source1,2,2021-02-20 22:54:00,2022-02-21 00:39:00,525705.0,Construction on I-10 EB near INNER HARBOR NAVIGATION CANAL Road closed. Take alternate route.,I-10,New Orleans,Orleans,LA,2021.0,validation
+A-6791552,Source1,2,2020-10-28 23:40:00,2021-10-29 01:25:00,525705.0,Incident on I-220 EB near LA-173 Left lane blocked.,Lakeshore Dr,Shreveport,Caddo,LA,2020.0,train
+A-5719316,Source1,2,2021-08-10 21:31:00,2022-08-10 23:16:00,525705.0,Incident on I-10 EB near LA-99 Right lane blocked. Expect delays.,I-10,Iowa,Jefferson Davis,LA,2021.0,validation
+A-5588371,Source1,2,2021-12-10 15:55:00,2022-12-10 17:40:00,525705.0,Construction on I-10 EB near OLD NEW RIVER Road closed. Take alternate route.,I-10,Laplace,St John the Baptist,LA,2021.0,validation
+A-5918302,Source1,2,2021-05-10 17:41:00,2022-05-10 19:26:00,525705.0,Incident on I-220 WB near TWELVEMILE BAYOU Left lane blocked.,I-220,Shreveport,Caddo,LA,2021.0,validation
+A-6328844,Source1,2,2021-11-17 07:53:00,2022-11-17 09:38:00,525705.0,Incident on I-12 WB near LACOMBE BAYOU Left lane blocked.,I-12 W,Lacombe,St. Tammany,LA,2021.0,validation
+A-6567386,Source1,2,2021-01-10 07:24:00,2022-01-10 09:09:00,525705.0,Construction on I-10 EB near SUBURBAN CANAL Road closed. Take alternate route.,I-10 E,Metairie,Jefferson,LA,2021.0,validation
+A-6927799,Source1,2,2020-12-31 23:43:00,2022-01-01 01:28:00,525705.0,Incident on I-12 EB near LA-59 Right lane blocked. Expect delays.,I-12,Covington,St Tammany,LA,2020.0,train
+A-5661317,Source1,2,2021-12-01 16:36:00,2022-12-01 18:21:00,525705.0,Incident on US-71 SB near LA-1208-2 Right lane blocked. Expect delays.,MacArthur Dr,Alexandria,Rapides,LA,2021.0,validation
+A-5755211,Source1,2,2021-05-07 18:41:00,2022-05-07 20:26:00,525705.0,Incident on US-90-BR EB near INTRACOASTAL WATERWAY Right lane blocked. Expect delays.,Farrington Dr,Marrero,Jefferson,LA,2021.0,validation
+A-5569332,Source1,2,2021-07-29 07:02:00,2022-07-29 08:47:00,525705.0,Incident on I-12 WB near LA-43 Right lane blocked. Expect delays.,I-12 W,Hammond,Tangipahoa,LA,2021.0,validation
+A-6012685,Source1,4,2021-06-06 16:48:00,2022-06-06 18:33:00,525705.0,Construction on I-20 WB near FIFI BAYOU Road closed. Take alternate route.,I-20,Bossier City,Bossier,LA,2021.0,validation
+A-6350363,Source1,2,2021-01-09 03:18:00,2022-01-09 05:03:00,525705.0,Incident on I-20 EB near TRAFFIC ST Right lane blocked. Expect delays.,I-20 E,Shreveport,Caddo,LA,2021.0,validation
+A-6608470,Source1,2,2020-12-10 23:10:00,2021-12-11 00:55:00,525705.0,Incident on I-55 NB near N PASS Left lane blocked.,I-55 N,Ponchatoula,Tangipahoa,LA,2020.0,train
+A-5410872,Source1,4,2022-02-04 06:13:00,2023-02-04 07:58:00,525705.0,Construction on LA-3132 WB near BRUSH BAYOU Road closed. Take alternate route.,LA-3132,Shreveport,Caddo,LA,2022.0,calibration
+A-5624598,Source1,2,2021-11-02 15:01:00,2022-11-02 16:46:00,525705.0,Incident on I-10 EB near LA-77 Right lane blocked. Expect delays.,Sidney Rd,Grosse Tete,Iberville,LA,2021.0,validation
+A-5788857,Source1,2,2021-12-17 18:40:00,2022-12-17 20:25:00,525705.0,Incident on I-49 NB near I-10 Right lane blocked. Expect delays.,NW Evangeline Trwy,Lafayette,Lafayette,LA,2021.0,validation
+A-4056457,Source1,4,2022-02-02 08:39:00,2023-02-02 10:24:00,525705.0,Construction on LA-28 EB near PALMETTO ST Road closed. Take alternate route., Hwy 28 E,Pineville,Rapides,LA,2022.0,calibration
+A-5544114,Source1,2,2021-06-25 11:03:00,2022-06-25 12:48:00,525705.0,Incident on I-55 SB near I-12 Left lane blocked.,I-55,Hammond,Tangipahoa,LA,2021.0,validation
+A-5593294,Source1,2,2021-12-14 18:24:00,2022-12-14 20:09:00,525705.0,Incident on I-10 WB near BAYOU MANCHAC Right shoulder closed.,I-10 W,Baton Rouge,East Baton Rouge,LA,2021.0,validation
+A-6424844,Source1,2,2021-01-22 16:22:00,2022-01-22 18:07:00,525705.0,Incident on I-12 WB near LA-59 Left lane blocked.,I-12 W,Mandeville,St. Tammany,LA,2021.0,validation
+A-6563652,Source1,4,2021-02-20 22:54:00,2022-02-21 00:39:00,525705.0,Construction on I-10 EB near INNER HARBOR NAVIGATION CANAL Road closed. Take alternate route.,I-10,New Orleans,Orleans,LA,2021.0,validation
+A-6209538,Source1,2,2021-12-04 10:05:00,2022-12-04 11:50:00,525705.0,Incident on I-10 WB near CALCASIEU RIVER Expect long delays.,I-10 W,Lake Charles,Calcasieu,LA,2021.0,validation
+A-5665631,Source1,2,2021-05-24 14:28:00,2022-05-24 16:13:00,525705.0,Construction on US-190 EB near LA-983 Road closed. Take alternate route.,Grand Bayou Rd,Port Allen,West Baton Rouge,LA,2021.0,validation
+A-5071900,Source1,2,2022-01-24 10:01:00,2023-01-24 11:46:00,525705.0,Construction on I-610 WB near PARIS AVE Road closed. Take alternate route.,I-10,New Orleans,Orleans,LA,2022.0,calibration
+A-3933641,Source1,2,2022-03-15 18:02:00,2023-03-15 19:47:00,525705.0,Incident on I-10 EB near ST CHARLES ST JOHN THE BAPTIST PARISH LINE Left lane blocked.,I-10,Kenner,Jefferson,LA,2022.0,calibration
+A-6424064,Source1,2,2021-01-17 11:08:00,2022-01-17 12:53:00,525705.0,Incident on I-110 SB near I-10 Left lane blocked.,I-110 S,Baton Rouge,East Baton Rouge,LA,2021.0,validation
+A-6734094,Source1,2,2020-10-23 06:57:00,2021-10-23 08:42:00,525705.0,Incident on I-10 WB near CANAL NO 17 Left lane blocked.,I-10 W,Saint Rose,St. Charles,LA,2020.0,train
+A-6859620,Source1,2,2020-11-28 00:50:00,2021-11-28 02:35:00,525705.0,Incident on I-10 WB near ACADIAN THWY Left lane blocked.,I-10,Baton Rouge,East Baton Rouge,LA,2020.0,train
+A-5929719,Source1,4,2021-03-02 16:58:00,2022-03-02 18:43:00,525705.0,Construction on I-10 WB near LAKE BIGEAUX Road closed. Take alternate route.,I-10 W,Lafayette,Lafayette,LA,2021.0,validation
+A-6718480,Source1,2,2020-10-23 01:39:00,2021-10-23 03:24:00,525705.0,Incident on I-12 EB near TANGIPAHOA RIVER Drive with caution.,I-12 E,Hammond,Tangipahoa,LA,2020.0,train
+A-5717182,Source1,2,2021-12-01 17:18:00,2022-12-01 19:03:00,525705.0,Incident on I-10 WB near VERDINE BAYOU Left lane blocked.,I-10 W,Westlake,Calcasieu,LA,2021.0,validation
+A-4636883,Source1,2,2022-02-05 22:27:00,2023-02-06 00:12:00,525705.0,Incident on US-90-BR EB near WESTBANK EXPY HOV LN Right lane blocked. Expect delays., Bodenger Blvd,New Orleans,Orleans,LA,2022.0,calibration
+A-6684888,Source1,2,2020-12-18 00:06:00,2021-12-18 01:51:00,525705.0,Incident on US-71 SB near LA-496 Left lane blocked.,N MacArthur Dr,Alexandria,Rapides,LA,2020.0,train
+A-6894437,Source1,2,2020-12-18 20:45:00,2021-12-18 22:30:00,525705.0,Incident on I-110 SB near I-10 Road closed. Take alternate route.,I-110 S,Baton Rouge,East Baton Rouge,LA,2020.0,train
+A-6145147,Source1,2,2021-07-04 17:52:00,2022-07-04 19:37:00,525705.0,Incident on I-12 WB near BLOOD RIVER Right lane blocked. Expect delays.,I-12,Holden,Livingston,LA,2021.0,validation
+A-3789239,Source1,2,2022-02-04 16:37:00,2023-02-04 18:22:00,525705.0,Incident on I-55 SB near RUDDOCK Right lane blocked. Expect delays.,I-55,Laplace,St John the Baptist,LA,2022.0,calibration
+A-6791793,Source1,2,2020-10-13 22:11:00,2021-10-13 23:56:00,525705.0,Incident on I-55 NB near MANCHAC Left lane blocked.,US-51 N,LA Place,St. John the Baptist,LA,2020.0,train
+A-4642359,Source1,2,2022-03-16 06:47:00,2023-03-16 08:32:00,525705.0,Incident on I-10 WB near US-51 Left lane blocked.,I-10,Gramercy,St James,LA,2022.0,calibration
+A-4297530,Source1,2,2022-01-31 14:52:00,2023-01-31 16:37:00,525705.0,Construction on LA-347 NB near MARTHA HEBERT RD Road closed. Take alternate route.,Grand Point Hwy,Breaux Bridge,St. Martin,LA,2022.0,calibration
+A-5573923,Source1,2,2021-07-01 12:37:00,2022-07-01 14:22:00,525705.0,Incident on I-10 WB near CITY PARK LAKE Left lane blocked.,I-10,Baton Rouge,East Baton Rouge,LA,2021.0,validation
+A-6355101,Source1,2,2021-01-22 06:00:00,2022-01-22 07:45:00,525705.0,Incident on I-10 WB near CANAL NO 17 Right lane blocked. Expect delays.,I-10 W,Saint Rose,St. Charles,LA,2021.0,validation
+A-4703013,Source1,2,2022-02-02 08:59:00,2023-02-02 10:44:00,525705.0,Incident on I-220 EB near TWELVEMILE BAYOU Right lane blocked. Expect delays.,I-220,Shreveport,Caddo,LA,2022.0,calibration
+A-5697734,Source1,4,2021-04-21 06:49:00,2022-04-21 08:34:00,525705.0,Construction on I-10 WB near US-51 Road closed. Take alternate route.,I-10,Reserve,St John the Baptist,LA,2021.0,validation
+A-4982208,Source1,2,2022-02-25 13:36:00,2023-02-25 15:21:00,525705.0,Incident on I-10 EB near ST CHARLES ST JOHN THE BAPTIST PARISH LINE Expect long delays.,I-10 E,Kenner,Jefferson,LA,2022.0,calibration
+A-6244402,Source1,2,2021-04-16 19:02:00,2022-04-16 20:47:00,525705.0,Incident on I-210 WB near I-10 Left lane blocked.,I-210 W,Lake Charles,Calcasieu,LA,2021.0,validation
+A-5640918,Source1,4,2021-06-01 16:09:00,2022-06-01 17:54:00,525705.0,Construction on I-20 EB near MACKS BAYOU Road closed. Take alternate route.,I-20,Bossier City,Bossier,LA,2021.0,validation
+A-6629370,Source1,2,2020-12-17 04:36:00,2021-12-17 06:21:00,525705.0,Incident on I-55 SB near S SLOUGH Drive with caution.,I-55 S,Ponchatoula,Tangipahoa,LA,2020.0,train
+A-6697310,Source1,2,2020-10-22 07:15:00,2021-10-22 09:00:00,525705.0,Incident on I-510 NB near LAKE FOREST BLVD Drive with caution.,Paris Rd N,New Orleans,Orleans,LA,2020.0,train
+A-5710359,Source1,4,2021-09-30 16:01:00,2022-09-30 17:46:00,525705.0,Construction on I-10 WB near LA-95 Road closed. Take alternate route.,I-10 W,Scott,Acadia,LA,2021.0,validation
+A-6566476,Source1,2,2021-02-15 06:15:00,2022-02-15 08:00:00,525705.0,Incident on I-12 WB near LA-1068 Left lane blocked.,I-12 W,Baton Rouge,East Baton Rouge,LA,2021.0,validation
+A-6507291,Source1,2,2021-01-27 08:18:00,2022-01-27 10:03:00,525705.0,Incident on I-10 EB near LOUISA ST NORTH Expect long delays.,I-10 E,New Orleans,Orleans,LA,2021.0,validation
+A-6214256,Source1,2,2021-11-02 01:17:00,2022-11-02 03:02:00,525705.0,Incident on LA-47 NB near INTRACOASTAL WATERWAY Right lane blocked. Expect delays.,Paris Rd N,New Orleans,Orleans,LA,2021.0,validation
+A-6817570,Source1,2,2020-12-03 17:00:00,2021-12-03 18:45:00,525705.0,Incident on LA-3132 EB near WALKER RD Right lane blocked. Expect delays.,Inner Loop Expy E,Shreveport,Caddo,LA,2020.0,train
+A-6690031,Source1,2,2020-12-29 12:45:00,2021-12-29 14:30:00,525705.0,Incident on I-20 EB near LA-154 Left lane blocked.,I-20 E,Gibsland,Bienville,LA,2020.0,train
+A-5554737,Source1,2,2021-10-06 13:37:00,2022-10-06 15:22:00,525705.0,Incident on I-10 WB near US-190-BR Drive with caution.,I-10 W,Slidell,St. Tammany,LA,2021.0,validation
+A-6780840,Source1,2,2020-11-26 00:53:00,2021-11-26 02:38:00,525705.0,Incident on US-61 NB near I-12 Left lane blocked.,Airline Hwy,Baton Rouge,East Baton Rouge,LA,2020.0,train
+A-6350362,Source1,2,2021-01-21 03:21:00,2022-01-21 05:06:00,525705.0,Incident on I-20 EB near TRAFFIC ST Right lane blocked. Expect delays.,I-20 E,Shreveport,Caddo,LA,2021.0,validation
+A-6595787,Source1,2,2020-09-13 20:20:00,2021-09-13 22:05:00,525705.0,Construction on I-10 EB near MISSISSIPPI RIVER Road closed. Take alternate route.,I-10 E,Baton Rouge,East Baton Rouge,LA,2020.0,train
+A-5703641,Source1,2,2021-07-25 03:49:00,2022-07-25 05:34:00,525705.0,Incident on I-10 EB near I-510 Drive with caution.,I-10,New Orleans,Orleans,LA,2021.0,validation
+A-6530342,Source1,2,2021-01-22 00:47:00,2022-01-22 02:32:00,525705.0,Incident on US-61 SB near LA-73 Left lane blocked., Airline Hwy,Prairieville,Ascension,LA,2021.0,validation
+A-5793176,Source1,2,2021-07-27 19:57:00,2022-07-27 21:42:00,525705.0,Incident on I-10 EB near LA-101 Left lane blocked.,I-10 E,Iowa,Jefferson Davis,LA,2021.0,validation
+A-5599805,Source1,2,2021-06-10 10:01:00,2022-06-10 11:46:00,525705.0,Incident on I-10 WB near LA-3000 Right lane blocked. Expect delays.,I-10 W,Maringouin,Iberville,LA,2021.0,validation
+A-6371531,Source1,2,2021-02-11 07:40:00,2022-02-11 09:25:00,525705.0,Incident on LA-47 NB near MARINA RD Drive with caution.,Paris Rd N,New Orleans,Orleans,LA,2021.0,validation
+A-5898371,Source1,2,2021-05-07 12:58:00,2022-05-07 14:43:00,525705.0,Construction on I-220 WB near CROSS LAKE Road closed. Take alternate route.,I-220,Shreveport,Caddo,LA,2021.0,validation
+A-3887188,Source1,2,2022-02-20 16:02:00,2023-02-20 17:47:00,525705.0,Incident on I-10 WB near LAKE CHARLES Right lane blocked. Expect delays.,I-10,Lake Charles,Calcasieu,LA,2022.0,calibration
+A-5597007,Source1,2,2021-05-28 23:05:00,2022-05-29 00:50:00,525705.0,Construction on I-10 WB near LA-395 Road closed. Take alternate route.,I-10 W,Roanoke,Jefferson Davis,LA,2021.0,validation
+A-5623677,Source1,4,2021-08-16 17:05:00,2022-08-16 18:50:00,525705.0,Construction on US-61 SB near COMMERCE LN Road closed. Take alternate route.,LA-42,Prairieville,Ascension,LA,2021.0,validation
+A-6827007,Source1,2,2020-11-05 13:47:00,2021-11-05 14:32:00,525645.0,Incident on I-10 WB near FRANKLIN AVE Expect long delays.,I-10 W,New Orleans,Orleans,LA,2020.0,train
+A-6794994,Source1,2,2020-11-04 23:56:00,2021-11-05 00:41:00,525645.0,Incident on I-210 WB near I-10 Left lane blocked.,I-210 W,Lake Charles,Calcasieu,LA,2020.0,train
+A-5556447,Source1,4,2020-10-23 00:00:00,2021-10-22 23:59:59,525599.9833333333,Closed road from Magnolia St (Edinger Ave) to I-405/San Diego Fwy (Edinger Ave) due to accident., Edinger Ave,Westminster,Orange,CA,2020.0,train
+A-3894556,Source1,2,2021-11-19 12:01:00,2022-10-07 17:23:56,464002.93333333335,Construction on I-95 SB near BRANDYWINE RIVER BRG Left lane blocked.,I-95,Wilmington,New Castle,DE,2021.0,validation
+A-5953787,Source1,4,2021-01-20 14:32:07,2021-11-01 08:45:00,410052.88333333336,Incident on OR-224 EB near MP 31 Expect delays., Clackamas Hwy,Estacada,Clackamas,OR,2021.0,validation
+A-3510662,Source1,4,2016-03-29 00:01:00,2016-11-21 05:00:00,341579.0,Closed past 275th St/Exit 134 - Road closed due to accident.,275th St,Salix,Woodbury,IA,2016.0,train
+A-7569808,Source1,2,2018-06-10 11:39:20,2019-01-31 15:00:00,338600.6666666667,Between OH-48/Exit 28 and CR-7/Wilmington Rd/Exit 36 - Accident. Right lane blocked. Traffic problem.,I-71 N,Lebanon,Warren,OH,2018.0,train
+A-4711399,Source1,2,2022-01-03 11:08:07,2022-07-30 15:40:04,299791.95,Incident on HILLSIDE AVE near HILLSIDE AVE Drive with caution.,Hillside Ave,Queens Village,Queens,NY,2022.0,calibration
+A-7569295,Source1,3,2018-06-08 05:59:35,2018-12-31 06:00:00,296640.4166666667,At 185th St/200th St/Exit 182 - Accident. Right lane blocked. Roadwork.,OH-2 E,Cleveland,Cuyahoga,OH,2018.0,train
+A-3435091,Source1,2,2016-09-24 18:11:55,2017-04-01 19:00:00,272208.0833333333,Between US-34/Exit 35 and US-275/IA-92/Exit 47 - Accident. Right lane closed. Contraflow.,US-275 N,Council Bluffs,Mills,IA,2016.0,train
+A-6457710,Source1,2,2020-10-13 19:19:34,2021-04-18 21:21:06,269401.5333333333,A disabled vehicle is creating a hazard causing no to minimum delays. Use caution., N Santiam Hwy,Idanha,Marion,OR,2020.0,train
+A-5857104,Source1,2,2021-07-01 18:22:48,2021-12-31 23:59:00,263856.2,Accident from Harrisburg School Rd to E Saw Mill Rd., Deerwood Ln,Quakertown,Bucks,PA,2021.0,validation
+A-5171556,Source1,2,2021-12-08 12:17:51,2022-05-26 11:23:49,243305.96666666667,A hazardous materials cleanup is occurring. Prepare to slow., Highway 95 W,Jordan Valley,Malheur,OR,2021.0,validation
+A-3595594,Source1,3,2017-04-26 10:33:32,2017-09-28 17:00:00,223586.46666666667,Between CR-614/Exit 65 and CR-G50/Exit 52 - Accident. Contraflow.,I-35 S,Prole,Warren,IA,2017.0,train
+A-6099533,Source1,2,2021-04-12 17:36:27,2021-09-04 16:32:59,208736.53333333333,Incident on OR-126 EB near MP 31 Drive with caution., McKenzie Hwy,Vida,Lane,OR,2021.0,validation
+A-5681317,Source1,2,2021-05-03 08:00:00,2021-09-24 16:45:00,207885.0,Construction on I-75 SB near COUNTY HWY-99 Drive with caution.,I-75 S,Findlay,Hancock,OH,2021.0,validation
+A-6091403,Source1,4,2021-02-05 11:37:00,2021-06-28 23:59:00,206662.0,US-1 Alt N - US-1 Alt S is closed from Louisiana Ave (Constitution Ave) to Maryland Ave (Constitution Ave) due to accident.,Constitution Ave NW,Washington,District of Columbia,DC,2021.0,validation
+A-6435288,Source1,2,2020-10-02 17:45:00,2021-02-14 20:26:00,194561.0,A disabled vehicle is creating a hazard causing no to minimum delays. Use caution., McKenzie Hwy,Vida,Lane,OR,2020.0,train
+A-5698888,Source1,2,2021-03-23 07:58:25,2021-08-01 18:41:38,189283.21666666667,I-84 is closed WB due to a crash. Use alternate routes. Ramps Affected.,I-84 W,Baker City,Baker,OR,2021.0,validation
+A-5851308,Source1,4,2021-03-22 22:01:00,2021-07-30 05:44:00,186223.0,Construction on CA-99 NB near MING AVE Take alternate route., Ming Ave,Bakersfield,Kern,CA,2021.0,validation
+A-4594855,Source1,2,2022-01-13 06:54:00,2022-05-19 14:19:00,181885.0,Incident on ROBERT F KENNEDY BRG WB near HARLEM RIVER Center lane blocked. Expect Delays.,Robert F Kennedy Brg,New York,New York,NY,2022.0,calibration
+A-3456653,Source1,4,2017-01-06 01:05:18,2017-05-01 06:00:00,165894.7,Closed between Berdan Ave/Exit 205 and Suder Ave/Exit 209 - Road closed due to accident. Construction work.,I-75 N,Toledo,Lucas,OH,2017.0,train
+A-6591995,Source1,2,2020-12-09 21:39:51,2021-04-01 00:00:00,161420.15,Animals are on the roadway. There should be no to minimum delay to traffic. Use caution.,Steens Hwy,Jordan Valley,Malheur,OR,2020.0,train
+A-3624275,Source1,4,2017-06-09 07:15:31,2017-09-28 17:00:00,160424.48333333334,Closed between CR-G50/Exit 52 and CR-614/Exit 65 - Road closed due to accident. Contraflow.,I-35 N,Prole,Warren,IA,2017.0,train
+A-6838998,Source1,4,2020-09-19 03:53:00,2021-01-07 05:33:00,158500.0,Hazard @ National Forest Development Road 46 -- Impact: Closure,NFD Road 46,Estacada,Clackamas,OR,2020.0,train
+A-4122919,Source1,2,2022-05-10 15:30:00,2022-08-18 20:56:12,144326.2,Construction on 20TH ST near AVENUE H Road closed. Take alternate route., 20th St E,Lancaster,Los Angeles,CA,2022.0,calibration
+A-3516017,Source1,4,2016-07-22 14:39:38,2016-10-30 14:00:00,143960.36666666667,Closed between I-15-BL/US-91/Exit 89 and River Rd/Rose-Firth Rd/Exit 98 - Road closed due to accident. Construction work. Lane closed.,I-15 N,Blackfoot,Bingham,ID,2016.0,train
+A-7544469,Source1,4,2018-08-02 05:15:05,2018-10-30 17:00:00,128864.91666666667,Closed between GA-92/Campbellton Fairburn Rd and GA-154/GA-166/Campbellton Rd - Road closed due to accident. Construction work. Left lane closed., Cascade Palmetto Hwy,Fairburn,Fulton,GA,2018.0,train
+A-6250455,Source1,2,2021-03-23 07:58:25,2021-06-18 06:00:00,125161.58333333333,Rough roads in area both EB and WB. Use caution.,I-84 W,La Grande,Union,OR,2021.0,validation
+A-6358676,Source1,4,2020-11-11 08:00:00,2021-02-02 07:59:59,119519.98333333334,Bridge Closed due to structural repairs. Expect opening 2/1/21. Please use detour routes., Union Hwy,Enoree,Spartanburg,SC,2020.0,train
+A-7747102,Source1,4,2019-08-03 06:17:07,2019-10-18 00:19:00,109081.88333333333,Closed at I-80 - Road closed due to accident. Roadwork., W Highway 31,Springfield,Sarpy,NE,2019.0,train
+A-6148757,Source1,4,2021-03-04 08:56:00,2021-05-17 12:42:13,106786.21666666666,Incident on I-95 SB near US-202 Road closed. Take alternate route.,I-95 S,Wilmington,New Castle,DE,2021.0,validation
+A-6897216,Source1,4,2020-10-06 07:01:00,2020-12-16 07:59:00,102298.0,Construction on I-278 eastbound at Exit 28A - Old Fulton Street; Cadman Plaza West (New York) Continuous Tuesday October 6th 2020 12:01 AM thru Tuesday December 15th 2020 05:00 AM all lanes closed,Brooklyn Queens Expy,Brooklyn,Kings,NY,2020.0,train
+A-6716588,Source1,2,2020-10-14 02:19:34,2020-12-15 21:19:00,90419.43333333333,Incident on OR-22 EB near MP 55 Drive with caution.,Church St,Idanha,Marion,OR,2020.0,train
+A-6119405,Source1,4,2021-11-01 19:00:00,2022-01-03 05:00:00,89880.0,Closed road from exit [172] to I-25 N due to accident., Upper Lake Gulch Rd,Castle Rock,Douglas,CO,2021.0,validation
+A-4253744,Source1,2,2022-05-06 15:04:12,2022-07-04 10:37:02,84692.83333333333,Incident on US-12 near 270TH ST Drive with caution., US Highway 12,Litchfield,Meeker,MN,2022.0,calibration
+A-6150273,Source1,2,2021-03-23 07:58:25,2021-05-15 10:30:00,76471.58333333333,A crash has occurred causing no to minimum delays. Use caution.,I-84 W,La Grande,Union,OR,2021.0,validation
+A-6761935,Source1,4,2020-11-11 13:53:00,2021-01-01 07:59:00,73086.0,I-75 N - I-71 N is closed from 12th St/Pike St/Exit 191 (I-71/I-75) to I-71/Exit 1 (I-71/I-75).,I-71 N,Covington,Kenton,KY,2020.0,train
+A-6897938,Source1,2,2020-11-13 21:14:02,2021-01-01 07:59:00,69764.96666666666,Accident on I-71/Exit 1 (I-71/I-75) from 5th St/Exit 192 (I-71/I-75) to I-75 S - I-71 S.,I-75 S,Cincinnati,Hamilton,OH,2020.0,train
+A-6802684,Source1,2,2020-11-13 21:14:02,2021-01-01 07:59:00,69764.96666666666,Accident on 5th St/Exit 192 (I-71/I-75) from I-71/Exit 1 (I-71/I-75) to I-75 N - I-71 N.,Brent Spence Bridge,Covington,Kenton,KY,2020.0,train
+A-1886499,Source2,3,2019-07-14 13:19:10,2019-08-31 10:30:00,68950.83333333333,Entry ramp to I-29 Southbound from 155th St closed due to flooding.,155th St,Thurman,Fremont,IA,2019.0,train
+A-3617215,Source1,4,2017-05-23 19:46:38,2017-07-10 08:00:00,68413.36666666667,Closed at County Road 9 - Road closed due to accident. Construction work., US Highway 6,Nappanee,Elkhart,IN,2017.0,train
+A-6564335,Source1,2,2021-01-16 23:47:18,2021-03-05 12:00:00,68412.7,The WB Exit 35 off-ramp is closed use an alternate route. Ramps Affected.,I-84 W,Cascade Locks,Multnomah,OR,2021.0,validation
+A-5781604,Source1,2,2021-09-24 14:00:00,2021-11-09 17:20:51,66440.85,Multi vehicle crash on I-81 northbound between Exit 10: PA 914 MARION and Exit 14: PA 316 - WAYNE AVE. All lanes closed.,I-81 N,Chambersburg,Franklin,PA,2021.0,validation
+A-6713332,Source1,2,2020-09-08 03:30:50,2020-10-22 14:35:00,64024.166666666664,The highway is closed. Use alternate routes., McKenzie Hwy,Walterville,Lane,OR,2020.0,train
+A-6616052,Source1,2,2020-09-08 03:30:50,2020-10-22 14:35:00,64024.166666666664,The highway is closed. Use alternate routes., McKenzie Hwy,Vida,Lane,OR,2020.0,train
+A-7678108,Source1,4,2017-09-01 05:09:00,2017-10-15 05:30:00,63381.0,Closed between OR-34/Exit 228 and OR-99E/Exit 234 - Road closed due to accident. Construction work.,I-5 N,Albany,Linn,OR,2017.0,train
+A-6766116,Source1,2,2020-09-08 12:28:58,2020-10-19 15:30:00,59221.03333333333,Hazardous tree or vegetation is causing no to minimum delays. Use caution., Boundary Rd,Idleyld Park,Douglas,OR,2020.0,train
+A-6815089,Source1,2,2020-09-08 12:28:58,2020-10-19 15:30:00,59221.03333333333,An unconfirmed report of animals on the roadway has been received. Use caution.,NFD Road 37,Glide,Douglas,OR,2020.0,train
+A-7493618,Source1,2,2018-10-22 09:30:00,2018-11-30 15:00:00,56490.0,Between US-29/VA-237/Old Lee Hwy and St Regents Dr - Accident. Right lane blocked., Lee Hwy,Fairfax,Fairfax City,VA,2018.0,train
+A-7501187,Source1,2,2018-10-22 09:30:00,2018-11-30 15:00:00,56490.0,Between US-29/VA-237/Old Lee Hwy and St Regents Dr - Accident. Right lane blocked., Lee Hwy,Fairfax,Fairfax City,VA,2018.0,train
+A-6353032,Source1,2,2021-01-08 07:26:22,2021-02-15 22:08:25,55602.05,Incident on ALDENE AVE near FANWOOD RD Drive with caution., Aldene Ave,Goose Creek,Berkeley,SC,2021.0,validation
+A-3442807,Source1,4,2016-07-05 05:03:00,2016-08-10 06:00:00,51897.0,Closed between I-80/Exit 0 and County Rd F-12/Exit 10 - Road closed due to accident. Construction work. Traffic problem.,IA-27 N,North Liberty,Johnson,IA,2016.0,train
+A-7694076,Source1,4,2017-08-10 18:18:41,2017-09-15 13:00:00,51521.316666666666,Closed between I-35W/Exit 41 and Lexington Ave/Exit 43A - Road closed due to accident. Roadwork. Roadway reduced to 2 lanes.,I-694 E,Saint Paul,Ramsey,MN,2017.0,train
+A-1772970,Source2,3,2019-09-19 03:36:55,2019-10-24 07:45:00,50648.083333333336,Entry ramp to I-29 Southbound from Waubonsie Ave Eastbound closed due to flooding.,I-29 S,Thurman,Fremont,IA,2019.0,train
+A-6304023,Source1,4,2021-03-11 19:28:48,2021-04-15 14:16:00,50087.2,Incident on US-101 SB near MP 327 Expect delays., Highway 101,Gold Beach,Curry,OR,2021.0,validation
+A-3720607,Source1,2,2022-02-10 18:32:00,2022-03-15 12:43:00,47171.0,A disabled vehicle is creating a hazard causing no to minimum delays. Use caution.,I-84 W,Pendleton,Umatilla,OR,2022.0,calibration
+A-3463716,Source1,4,2016-10-23 23:54:17,2016-11-23 15:00:00,44105.71666666667,Closed between 111th St/Exit 66A and I-57/Exit 63 - Road closed due to accident. Construction work.,I-94 W,Chicago,Cook,IL,2016.0,train
+A-6636606,Source1,2,2020-10-02 17:45:00,2020-11-01 16:45:00,43140.0,Incident on OR-126 EB near MP 30 Drive with caution., McKenzie Hwy,Vida,Lane,OR,2020.0,train
+A-7278540,Source1,2,2020-02-14 03:16:49,2020-03-13 04:46:46,40409.95,Between Old Emigrant Rd/Exit 234 and Summit Rd/Exit 243 - Accident.,I-84 E,Pendleton,Umatilla,OR,2020.0,train
+A-7139186,Source1,2,2020-02-27 05:00:54,2020-03-26 06:30:51,40409.95,Between Old Emigrant Rd/Exit 234 and Summit Rd/Exit 243 - Accident.,I-84 E,Pendleton,Umatilla,OR,2020.0,train
+A-3487151,Source1,4,2016-08-05 15:01:04,2016-08-31 15:00:00,37438.933333333334,Closed past Rodney Ave - Road closed due to accident., Pilottown Rd,Lewes,Sussex,DE,2016.0,train
+A-3481497,Source1,4,2016-10-06 13:46:47,2016-11-01 08:00:00,37093.21666666667,Closed between US-127-BR/Center St and US-127-BR/Lincoln Rd - Road closed due to accident. Construction work.,US-127 N,Ithaca,Gratiot,MI,2016.0,train
+A-3804659,Source1,4,2022-09-06 00:00:00,2022-10-01 00:30:00,36030.0,Construction on MN-55 EB near US-52 Road closed. Take alternate route., Clayton Ave E,Rosemount,Dakota,MN,2022.0,calibration
+A-7673710,Source1,4,2017-10-20 14:52:52,2017-11-13 18:00:00,34747.13333333333,Closed at North Territorial Rd/Exit 49 - Road closed due to accident. Construction work.,US-23 N,Ann Arbor,Washtenaw,MI,2017.0,train
+A-6447540,Source1,2,2021-01-05 18:25:55,2021-01-29 20:00:00,34654.083333333336,A landslide has closed the EB right lane MP 34 to 36. EB and WB exits 35 and 37 are closed. Use caution. Ramps Affected.,I-84 E,Corbett,Multnomah,OR,2021.0,validation
+A-6515749,Source1,2,2021-01-05 18:25:55,2021-01-29 20:00:00,34654.083333333336,A landslide has closed the Historic Columbia River Highway from NW Palmer Mill Rd to I-84. Use an alternate route.,E Historic Columbia River Hwy,Corbett,Multnomah,OR,2021.0,validation
+A-3830563,Source1,2,2022-12-01 19:58:27,2022-12-23 21:13:30,31755.05,A hazardous materials cleanup is causing minimal delay to traffic. Use caution.,I-84 E,La Grande,Umatilla,OR,2022.0,calibration
+A-6493159,Source1,2,2021-01-29 20:57:09,2021-02-20 14:58:00,31320.85,High water is causing no to minimum delays. Use caution., Highway 101,Coos Bay,Coos,OR,2021.0,validation
+A-6359191,Source1,2,2021-01-26 20:13:00,2021-02-15 13:18:26,28385.433333333334,Incident on I-90 WB near US-41 Road closed. Take alternate route.,I-90 W,Hammond,Lake,IN,2021.0,validation
+A-6775052,Source1,2,2020-10-15 18:09:24,2020-11-03 22:02:21,27592.95,Incident on US-12 near LOMBARDY DR Expect delays., W US Highway 12,Helena,Lewis and Clark,MT,2020.0,train
+A-5633959,Source1,2,2021-10-20 07:51:56,2021-11-07 02:13:44,25581.8,MTA NYC Transit Bus: due to Crash both directions X27 Bus X28 Bus X37 Bus and X38 Bus area of Gowanus Exp./22 St (N.B.) (New York) bus service delayed.,Gowanus Expy HOV Ln,Brooklyn,Kings,NY,2021.0,validation
+A-6230210,Source1,4,2021-08-13 22:13:00,2021-08-30 05:00:00,23447.0,On VA-120 (N Glebe Rd) in the County of Arlington from the ramp to VA-120W (Glebe Road) to Chain Bridge Rd; VA-123N/S motorists can expect potential delays in this area from 08/13/21 at 10:13 PM until 08/30/21 at 5:00 AM due to bridge work. All east lanes are closed. All west lanes are closed., N Glebe Rd,Arlington,Arlington,VA,2021.0,validation
+A-5018303,Source1,2,2023-01-07 06:55:03,2023-01-23 03:09:24,22814.35,Incident on POINSETT HWY near US-276 Drive with caution., Poinsett Hwy,Greenville,Greenville,SC,2023.0,test
+A-6802417,Source1,2,2020-09-08 14:38:06,2020-09-23 19:43:00,21904.9,The highway is closed due to wildfire. Use alternate routes.,Old McKenzie Hwy,Blue River,Lane,OR,2020.0,train
+A-4416563,Source1,2,2022-01-24 08:56:45,2022-02-08 03:18:04,21261.316666666666,Incident on WAXHAW HWY near PEACEWOOD TRL Drive with caution., Waxhaw Hwy,Lancaster,Lancaster,SC,2022.0,calibration
+A-7266575,Source1,2,2020-02-08 06:12:45,2020-02-22 22:12:43,21119.966666666667,Between Old Emigrant Rd/Exit 234 and Summit Rd/Exit 243 - Accident.,I-84 E,Pendleton,Umatilla,OR,2020.0,train
+A-6661493,Source1,4,2020-09-08 03:30:50,2020-09-22 15:20:00,20869.166666666668,Incident on OR-126 EB near MP 12 Expect delays., Thienes Ln,Springfield,Lane,OR,2020.0,train
+A-6683052,Source1,4,2020-09-08 03:30:50,2020-09-22 15:20:00,20869.166666666668,Incident on OR-126 EB near MP 12 Expect delays., McKenzie Hwy,Springfield,Lane,OR,2020.0,train
+A-4378721,Source1,2,2022-07-08 18:11:53,2022-07-23 03:31:58,20720.083333333332,Incident on I-26 WB near MM 69 Road closed. Take alternate route.,I-26 W,Newberry,Newberry,SC,2022.0,calibration
+A-3313047,Source2,3,2017-09-15 22:37:05,2017-09-30 05:50:00,20592.916666666668,Entry ramp to Viento State Park at Exit 56 from I-84 Eastbound closed due to Eagle Creek wild fire.,US-30 E,Cascade Locks,Hood River,OR,2017.0,train
+A-5981130,Source1,2,2021-04-09 12:57:58,2021-04-23 17:52:03,20454.083333333332,Incident on OR-194 EB near MP 7 Road hazard. Expect long delays., Main St E,Monmouth,Polk,OR,2021.0,validation
+A-5554761,Source1,2,2021-04-09 12:57:58,2021-04-23 17:07:03,20409.083333333332,A hazardous materials cleanup has closed the road and a detour is in place. Follow detour., Pacific Ave N,Monmouth,Polk,OR,2021.0,validation
+A-6588990,Source1,2,2020-11-26 00:38:25,2020-12-09 02:31:31,18833.1,Incident on GOLF COURSE RD near DOGWOOD RD Expect delays., Golf Course Rd,Roundup,Musselshell,MT,2020.0,train
+A-6555305,Source1,4,2021-02-16 09:15:00,2021-03-01 09:00:00,18705.0,Incident on OR-204 EB near MP 0 Expect delays., Weston Elgin Hwy,Weston,Umatilla,OR,2021.0,validation
+A-6806505,Source1,4,2020-12-04 16:45:30,2020-12-17 10:55:14,18369.733333333334,Closed road from Whitby Ave to Cedar Ave due to accident., Yeadon Ave,Lansdowne,Delaware,PA,2020.0,train
+A-6868627,Source1,4,2020-12-04 16:45:30,2020-12-17 10:55:14,18369.733333333334,Closed road from Redwood Ave to Baily Rd due to accident., Redwood Ave,Lansdowne,Delaware,PA,2020.0,train
+A-6081510,Source1,2,2021-10-24 00:45:45,2021-11-05 15:12:20,18146.583333333332,Incident on ANCHOR ST near VIADUCT RD Expect delays., Anchor St,Spartanburg,Spartanburg,SC,2021.0,validation
+A-5752049,Source1,2,2021-12-03 02:36:49,2021-12-15 09:28:52,17692.05,Incident on MT-59 near MM 59 Drive with caution., Highway 59 N,Cohagen,Garfield,MT,2021.0,validation
+A-1854326,Source2,3,2019-09-19 03:36:55,2019-10-01 02:37:00,17220.083333333332,Entry ramp to I-29 Northbound from Waubonsie Ave Westbound closed due to flooding.,I-29 N,Thurman,Fremont,IA,2019.0,train
+A-5643120,Source1,2,2021-05-11 04:51:30,2021-05-22 18:47:23,16675.883333333335,Slow traffic on FL-948 - FL-953 from Miami to S Royal Poinciana Blvd due to accident.,NW 42nd Ave,Miami,Miami-Dade,FL,2021.0,validation
+A-4382706,Source1,2,2022-09-23 20:51:27,2022-10-05 10:33:31,16662.066666666666,Incident on OR-370 WB near MM 10 Drive with caution., NW O'Neil Hwy,Powell Butte,Crook,OR,2022.0,calibration
+A-6824683,Source1,2,2020-09-20 06:31:16,2020-10-01 15:52:23,16401.116666666665,The highway is closed. Use alternate routes., Caves Hwy,Cave Junction,Josephine,OR,2020.0,train
+A-7140892,Source1,2,2020-03-16 09:15:00,2020-03-27 15:09:12,16194.2,At I-35/I-535 - Accident. Traffic problem.,Blatnik Bridge,Duluth,St. Louis,MN,2020.0,train
+A-6639716,Source1,2,2020-09-08 18:05:39,2020-09-19 14:07:00,15601.35,The highway is closed. Use alternate routes.,State Highway 126,Blue River,Linn,OR,2020.0,train
+A-5529180,Source1,2,2021-05-12 04:45:30,2021-05-22 21:00:01,15374.516666666666,Stationary traffic on I-195 E from exit [5] to Miami Beach due to accident.,I-195 E,Miami Beach,Miami-Dade,FL,2021.0,validation
+A-6272321,Source1,2,2021-03-30 05:21:03,2021-04-08 18:46:11,13765.133333333333,Stationary traffic on NJ-21 from Rector St (NJ-21) to South St (NJ-21) due to accident., McCarter Hwy,Newark,Essex,NJ,2021.0,validation
+A-6795330,Source1,2,2020-12-22 00:53:00,2020-12-31 05:38:13,13245.216666666667,Construction on 165TH ST near 170TH ST Road closed. Take alternate route., 165th St E,Llano,Los Angeles,CA,2020.0,train
+A-7495786,Source1,3,2018-10-28 09:35:03,2018-11-06 12:00:00,13104.95,At S South End Rd - Accident. Rockfalls., Pacific Hwy,Oregon City,Clackamas,OR,2018.0,train
+A-5643877,Source1,2,2021-03-30 20:44:30,2021-04-08 15:54:22,12669.866666666667,Slow traffic on US-1 S - US-9 S from Elmora Ave/Bayway Ave (US-9/US-1) to I-278 (US-9/US-1) due to accident., Carlton St,Elizabeth,Union,NJ,2021.0,validation
+A-6824795,Source1,4,2020-09-09 14:20:00,2020-09-18 06:59:00,12519.0,Road OR-99 is closed from Colver Rd/Suncrest Rd (OR-99) to S Valley View Rd (OR-99) due to accident landslips. Passable with care roadwork., W Valley View Rd,Talent,Jackson,OR,2020.0,train
+A-7248147,Source1,2,2020-02-03 12:40:35,2020-02-11 16:40:00,11759.416666666666,At S Main St/S Columbia St/SE 3rd Ave - Accident.,Oregon-Washington Hwy,Weston,Umatilla,OR,2020.0,train
+A-7728917,Source1,2,2019-05-22 05:17:36,2019-05-30 09:17:00,11759.4,At Dick Creek Rd - Accident.,John Day Hwy,Kimberly,Grant,OR,2019.0,train
+A-5852584,Source1,4,2021-04-08 23:42:00,2021-04-16 23:59:00,11537.0,Incident on I-10 WB near WASHINGTON BLVD Road closed. Take alternate route.,I-10 W,Los Angeles,Los Angeles,CA,2021.0,validation
+A-5704070,Source1,2,2021-08-06 00:00:00,2021-08-13 23:59:59,11519.983333333334,Crash - Avoid the Area,S John Young Pkwy,Orlando,Orange,FL,2021.0,validation
+A-4562553,Source1,2,2023-01-20 00:00:00,2023-01-27 23:59:59,11519.983333333334,Accident from exit [19] to N Dean Rd.,E West Expy E,Orlando,Orange,FL,2023.0,test
+A-5924577,Source1,2,2021-08-06 00:00:00,2021-08-13 23:59:59,11519.983333333334,Crash - Avoid the Area,S John Young Pkwy,Orlando,Orange,FL,2021.0,validation
+A-3717468,Source1,2,2023-02-01 00:00:00,2023-02-08 23:59:59,11519.983333333334,Accident from exit [62] to I-4 W.,I-4 W,Kissimmee,Osceola,FL,2023.0,test
+A-7292679,Source1,2,2019-12-22 17:34:06,2019-12-30 15:30:00,11395.9,At NW Fir Ln - Accident., NW Highway 26,Madras,Jefferson,OR,2019.0,train
+A-4250864,Source1,4,2022-06-19 02:39:04,2022-06-26 23:59:00,11359.933333333332,Closed road from Elm St to Indiana Blvd due to accident., Elm St,Dallas,Dallas,TX,2022.0,calibration
+A-6255743,Source1,4,2021-09-23 03:21:00,2021-09-30 23:59:00,11318.0,Bridge closure from exit [7B] to I-110 N.,Glenn Anderson Fwy E,Los Angeles,Los Angeles,CA,2021.0,validation
+A-5987603,Source1,4,2021-05-16 05:26:00,2021-05-23 23:59:00,11193.0,I-95 S is closed from I-95 (North) (I-95) to US-441/Florida's Tpke/Exit 12 (I-95) due to accident.,I-95,Miami,Miami-Dade,FL,2021.0,validation
+A-4033378,Source1,4,2022-02-20 06:36:46,2022-02-27 23:59:00,11122.233333333334,TN-24 - US-70 W - US-70 E is closed from 1st Ave (US-70) to US-41/US-70/US-31/8th Ave (US-70) due to accident., Broadway,Nashville,Davidson,TN,2022.0,calibration
+A-6306587,Source1,4,2021-09-16 07:13:14,2021-09-23 23:59:00,11085.766666666666,I-87 N is closed from Willis Ave/Exit 2 (I-87) to 138th St/Grand Concourse/3rd Ave/Exit 3 (I-87) due to accident.,Major Deegan Expy N,Bronx,Bronx,NY,2021.0,validation
+A-5620058,Source1,4,2021-08-14 07:16:05,2021-08-21 23:59:00,11082.916666666666,Incident on MD-295 NB near MD-410 Road closed. Take alternate route.,Baltimore Washington Pkwy,Hyattsville,Prince George's,MD,2021.0,validation
+A-5209804,Source1,4,2023-01-23 07:49:00,2023-01-30 23:59:00,11050.0,Incident on I-95 NB near EXIT 183 Use alternate exit ramp.,,Melbourne,Brevard,FL,2023.0,test
+A-5812052,Source1,4,2021-03-05 08:35:06,2021-03-12 23:59:00,11003.9,Closed road from exit [37] to NE Warrendale Rd due to accident.,I-84 E,Cascade Locks,Multnomah,OR,2021.0,validation
+A-3453519,Source1,4,2016-12-15 12:07:59,2016-12-23 01:51:22,10903.383333333333,Closed at The Plaza - Road closed due to accident. Roadwork., E Sugar Creek Rd,Charlotte,Mecklenburg,NC,2016.0,train
+A-6537181,Source1,2,2021-01-29 08:00:00,2021-02-05 20:00:00,10800.0,Incident on I-70 WB near MISSOURI STATE LINE Road closed. Take alternate route.,I-70 W,Kansas City,Wyandotte,KS,2021.0,validation
+A-5569697,Source1,4,2021-06-06 13:51:17,2021-06-13 23:59:00,10687.716666666667,Incident on I-280 EB near COUNTY HWY-577 Road closed. Take alternate route.,I-280,West Orange,Essex,NJ,2021.0,validation
+A-6837862,Source1,2,2020-09-20 06:31:16,2020-09-27 15:29:05,10617.816666666668,The highway is closed. Use alternate routes., Caves Hwy,Cave Junction,Josephine,OR,2020.0,train
+A-6961133,Source1,2,2020-09-20 06:31:16,2020-09-27 15:29:05,10617.816666666668,The highway is closed. Use alternate routes., Caves Hwy,Cave Junction,Josephine,OR,2020.0,train
+A-6537515,Source1,2,2021-02-15 08:34:53,2021-02-22 15:34:00,10499.116666666667,The highway is closed. Use alternate routes., Silver Falls Hwy SE,Aumsville,Marion,OR,2021.0,validation
+A-5596443,Source1,2,2021-07-05 17:16:43,2021-07-12 23:54:31,10477.8,A wildfire is in the area. Use an alternate route., N Umpqua Hwy,Glide,Douglas,OR,2021.0,validation
+A-5275337,Source1,4,2022-07-14 19:36:42,2022-07-21 23:59:00,10342.3,Incident on MD-200 EB near MM 7 Road closed. Take alternate route.,MD-200,Derwood,Montgomery,MD,2022.0,calibration
+A-3764747,Source1,2,2023-01-27 19:41:10,2023-02-03 23:59:00,10337.833333333334,Accident at exit [4]., Beach St,New York,New York,NY,2023.0,test
+A-4434981,Source1,2,2022-11-07 20:10:00,2022-11-14 23:59:00,10309.0,Incident on I-95 NB near MM 216 Three lanes blocked. Expect delays.,I-95,Titusville,Brevard,FL,2022.0,calibration
+A-4298315,Source1,4,2022-09-25 06:44:30,2022-10-02 10:00:00,10275.5,Road Closed - on I-580 in both directions from Eastlake Blvd to Hobart St in Washoe County Nevada. October 2nd from 7:00am to 10:00am road will be closed periodically. Expect delays. Estimated End Time is 10:00 AM on 10/02/22,I-580 S,Washoe Valley,Washoe,NV,2022.0,calibration
+A-6948411,Source1,2,2020-12-16 13:53:25,2020-12-23 17:05:00,10271.583333333334,Slow traffic on FL-858 from SW 40th Ave (Hallandale Beach Blvd) to I-95 (Hallandale Beach Blvd) due to accident., W Hallandale Beach Blvd,Hallandale,Broward,FL,2020.0,train
+A-3929573,Source1,4,2022-11-07 20:57:23,2022-11-14 23:59:00,10261.616666666667,I-95 N is closed from FL-407/Exit 78 (I-95) to FL-406/Exit 80 (I-95) due to accident.,I-95,Titusville,Brevard,FL,2022.0,calibration
+A-5316110,Source1,2,2022-06-08 01:31:58,2022-06-15 03:59:00,10227.033333333333,Accident from Bircher Blvd to E I70 Hwy., Bircher Blvd,St Louis,St Louis (City),MO,2022.0,calibration
+A-5066309,Source1,2,2022-08-30 00:48:19,2022-09-06 02:59:00,10210.683333333332,Accident on Page Ave from US-67/Lindbergh Blvd to Woodson Rd., Page Ave,St Louis,St Louis,MO,2022.0,calibration
+A-5482781,Source1,2,2021-06-15 13:38:00,2021-06-22 15:00:00,10162.0,Accident from CA-180 (S McCall Ave) to E Jensen Ave (S McCall Ave)., E Kings Canyon Rd,Sanger,Fresno,CA,2021.0,validation
+A-6019445,Source1,2,2021-06-24 14:15:00,2021-07-01 15:30:00,10155.0,Incident on I-81 NB near MARYLAND Drive with caution.,I-81,Chambersburg,Franklin,PA,2021.0,validation
+A-7050682,Source1,4,2020-06-19 05:04:14,2020-06-26 05:00:00,10075.766666666666,Closed between NE Corbett Hill Rd and I-84 - Road closed due to accident. Roadwork., E Historic Columbia River Hwy,Corbett,Multnomah,OR,2020.0,train
+A-7053304,Source1,4,2020-06-19 05:04:14,2020-06-26 05:00:00,10075.766666666666,Closed between NE Corbett Hill Rd and I-84/US-30/Columbia Riv Hwy/FRTG Rd - Road closed due to accident. Roadwork., E Historic Columbia River Hwy,Corbett,Multnomah,OR,2020.0,train
+A-3843806,Source1,2,2022-09-21 01:57:07,2022-09-28 01:17:20,10040.216666666667,A crash has occurred causing no to minimum delays. Use caution.,I-5 N,Wolf Creek,Josephine,OR,2022.0,calibration
+A-6351768,Source1,2,2021-02-12 18:03:56,2021-02-19 15:45:00,9941.066666666668,Hazardous tree or vegetation. Use an alternate route., Mount Angel Scotts Mills Rd NE,Silverton,Marion,OR,2021.0,validation
+A-6793584,Source1,2,2020-10-03 07:19:32,2020-10-10 03:25:55,9846.383333333333,Incident on BEAR TRL near BOWDISH RD Drive with caution., Bear Trl,Whitefish,Flathead,MT,2020.0,train
+A-7454344,Source1,2,2019-02-19 20:03:01,2019-02-26 10:16:52,9493.85,At Old Emigrant Rd/Exit 234 - Accident.,Old Oregon Trl,Meacham,Umatilla,OR,2019.0,train
+A-6270943,Source1,2,2021-03-15 06:25:17,2021-03-21 20:01:00,9455.716666666667,Stationary traffic on FL-826 from 10th Ave (FL-826) to 2nd Ave (FL-826) due to accident., N Miami Beach Blvd,North Miami Beach,Miami-Dade,FL,2021.0,validation
+A-6899403,Source1,2,2020-12-16 13:53:25,2020-12-23 01:39:30,9346.083333333334,Slow traffic on FL-858 from SW 40th Ave (Hallandale Beach Blvd) to I-95 (Hallandale Beach Blvd) due to accident., W Hallandale Beach Blvd,Hallandale,Broward,FL,2020.0,train
+A-6729386,Source1,2,2020-09-09 03:02:09,2020-09-15 14:15:00,9312.85,A wildfire in the area has OR-211 closed between Estacada and OR-213. Use alternate route., Woodburn-Estacada Hwy,Molalla,Clackamas,OR,2020.0,train
+A-5784090,Source1,2,2021-04-04 07:10:30,2021-04-10 17:12:42,9242.2,Slow traffic from W 74th St to I-110 S due to accident., S Figueroa St,Los Angeles,Los Angeles,CA,2021.0,validation
+A-6000617,Source1,2,2021-04-01 02:04:00,2021-04-07 12:03:52,9239.866666666667,Slow traffic on FL-826 - FL-826 E - FL-91 S - Florida's Tpke S from Florida's Tpke (FL-826) to FL-915/6th Ave (FL-826) due to accident.,Palmetto Expy N,Miami,Miami-Dade,FL,2021.0,validation
+A-6586743,Source1,2,2020-12-16 13:53:25,2020-12-22 23:08:32,9195.116666666667,Stationary traffic on FL-858 from SW 40th Ave (Hallandale Beach Blvd) to I-95 (Hallandale Beach Blvd) due to accident.,W Hallandale Beach Blvd,Hallandale,Broward,FL,2020.0,train
+A-6814924,Source1,2,2020-12-22 20:38:50,2020-12-29 03:41:00,9062.166666666666,A landslide has occurred. Use caution.,Hyland Ln,Coos Bay,Coos,OR,2020.0,train
+A-6858404,Source1,2,2020-09-24 20:01:03,2020-09-30 23:27:33,8846.5,Incident on I-580 near MOANA LN Expect delays.,Martin Luther King Jr Memorial Fwy,Reno,Washoe,NV,2020.0,train
+A-5670415,Source1,2,2021-07-29 15:09:28,2021-08-04 16:32:19,8722.85,Incident on CLARKS ADDITION LN near CLARKS ADDITION LOOP Expect delays., Clarks Addition Loop,Noxon,Sanders,MT,2021.0,validation
+A-5578871,Source1,2,2021-05-27 14:17:00,2021-06-02 15:30:00,8713.0,Incident on I-81 SB near PA-316 Road closed. Take alternate route.,I-81 S,Chambersburg,Franklin,PA,2021.0,validation
+A-7297133,Source1,2,2019-11-27 16:56:36,2019-12-03 09:29:58,8193.366666666667,At North Fork Ryegrass Creek Rd - Accident.,Steens Hwy,Riverside,Malheur,OR,2019.0,train
+A-6427838,Source1,4,2021-01-15 20:04:29,2021-01-21 09:57:54,8033.416666666667,TN-43 is closed from Wade St to Dice St due to accident., Wade St,South Fulton,Obion,TN,2021.0,validation
+A-6884769,Source1,4,2020-09-12 17:38:00,2020-09-18 06:59:00,8001.0,Road US-199 is closed from Waldo Rd (US-199) to OR--CA State Border (US-199) due to accident landslips. Passable with care.,Arrowhead Dr,O Brien,Josephine,OR,2020.0,train
+A-7346953,Source1,4,2019-10-18 19:00:00,2019-10-24 06:00:00,7860.0,Closed between I-220/US-49/Exit 41 and I-55/Terry Rd/Exit 43 - Road closed due to accident. Roadwork. Right lane blocked.,I-20 E,Jackson,Hinds,MS,2019.0,train
+A-5583379,Source1,2,2021-03-22 06:30:42,2021-03-27 17:12:25,7841.716666666666,Stationary traffic on FL-826 - US-1 S - FL-5 from US-1 to NE 26th Ave due to accident., Biscayne Blvd,North Miami Beach,Miami-Dade,FL,2021.0,validation
+A-6091950,Source1,2,2021-03-22 06:30:42,2021-03-27 15:49:09,7758.45,Stationary traffic on FL-826 from 19th Ave (FL-826) to FL-A1A/Collins Ave (FL-826) due to accident., NE 163rd St,North Miami Beach,Miami-Dade,FL,2021.0,validation
+A-3915416,Source1,2,2022-08-17 06:03:51,2022-08-22 14:47:59,7724.133333333333,Incident on TRENHOLM RD near DECKER BLVD Drive with caution.,Decker Blvd,Columbia,Richland,SC,2022.0,calibration
+A-5925206,Source1,4,2021-07-23 22:00:00,2021-07-29 05:00:00,7620.0,Closed road from Portland East to SE 96th Dr / SE Division St due to accident.,E Portland Fwy N,Portland,Multnomah,OR,2021.0,validation
+A-6777761,Source1,2,2020-12-24 01:03:57,2020-12-29 05:52:25,7488.466666666666,Incident on I-94 EB near CR-19 Drive with caution.,Labeaux Ave NE,Albertville,Wright,MN,2020.0,train
+A-6913040,Source1,2,2020-12-24 01:03:57,2020-12-29 05:52:25,7488.466666666666,Incident on I-94 EB near CR-19 Drive with caution.,Labeaux Ave NE,Albertville,Wright,MN,2020.0,train
+A-7282628,Source1,2,2020-01-04 03:23:45,2020-01-09 07:23:00,7439.25,At Coyote Creek Rd/Exit 76 - Accident.,I-5 N,Wolf Creek,Josephine,OR,2020.0,train
+A-7447350,Source1,2,2019-02-14 16:12:56,2019-02-19 20:12:00,7439.066666666667,At County Road 3-10/County Road 3-14 - Accident., Highway 140,Adel,Lake,OR,2019.0,train
+A-6807513,Source1,4,2020-09-08 04:53:00,2020-09-13 08:52:00,7439.0,Incident on OR-126 SB near MP 0 Expect delays.,State Highway 126,Blue River,Linn,OR,2020.0,train
+A-3434496,Source1,4,2016-09-14 04:54:06,2016-09-19 08:00:00,7385.9,Closed between IA-146/Exit 182 and IA-224/Exit 173 - Road closed due to accident. Lane closed.,I-80 W,Grinnell,Jasper,IA,2016.0,train
+A-6004339,Source1,2,2021-07-07 12:25:00,2021-07-12 15:10:32,7365.533333333334,Incident on I-95 SB near MM 357 Drive with caution.,I-95 S,Jacksonville,Duval,FL,2021.0,validation
+A-6201790,Source1,2,2021-07-07 12:25:00,2021-07-12 15:10:32,7365.533333333334,Incident on FL-874 NB near SW 152ND ST Drive with caution.,FL-874 N,Miami,Miami-Dade,FL,2021.0,validation
+A-5474666,Source1,2,2021-07-07 13:55:00,2021-07-12 15:10:30,7275.5,Incident on US-17 near SW OGDEN ACRES RD Right lane blocked. Expect delays., SW Highway 17,Arcadia,DeSoto,FL,2021.0,validation
+A-7063538,Source1,4,2020-06-26 09:58:11,2020-07-01 06:00:00,6961.816666666667,Closed between NE Corbett Hill Rd and I-84 - Road closed due to accident. Roadwork. Lane closed., E Historic Columbia River Hwy,Corbett,Multnomah,OR,2020.0,train
+A-7063451,Source1,4,2020-06-26 09:58:11,2020-07-01 06:00:00,6961.816666666667,Closed between NE Corbett Hill Rd and I-84/US-30/Columbia Riv Hwy/FRTG Rd - Road closed due to accident. Roadwork. Lane closed., E Historic Columbia River Hwy,Corbett,Multnomah,OR,2020.0,train
+A-6897988,Source1,2,2020-09-10 23:15:57,2020-09-15 19:17:00,6961.05,The highway is closed. Use alternate routes.,E Diamond Lake Hwy,Chemult,Klamath,OR,2020.0,train
+A-6934031,Source1,2,2020-09-08 06:38:26,2020-09-13 02:06:38,6928.2,Incident on OR-22 EB near MP 16 Drive with caution., N Santiam Hwy SE,Stayton,Marion,OR,2020.0,train
+A-5002365,Source1,4,2022-01-06 05:27:30,2022-01-10 23:59:00,6871.5,Closed road from US-30/NW St Helens Rd (Portland) (North) (US-30 Byp/NW Bridge Ave) to US-30/NW St Helens Rd (Portland) (South) (US-30 Byp/NW Bridge Ave) due to accident., NW Bridge Ave,Portland,Multnomah,OR,2022.0,calibration
+A-6206695,Source1,2,2021-04-20 04:06:00,2021-04-24 20:45:00,6759.0,Slow traffic on FL-826 - FL-A1A from NE 163rd St to 170th St due to accident.,Sunny Isles Blvd,North Miami Beach,Miami-Dade,FL,2021.0,validation
+A-6738568,Source1,2,2020-12-26 06:53:36,2020-12-30 22:38:00,6704.4,A crash has occurred causing no to minimum delays. Use caution., Highway 126,Sisters,Deschutes,OR,2020.0,train
+A-7253626,Source1,2,2020-02-06 01:16:00,2020-02-10 16:30:00,6674.0,At UT-209/S Little Cottonwood Rd - Accident. Lane closed., E Little Cottonwood Rd,Sandy,Salt Lake,UT,2020.0,train
+A-6607946,Source1,2,2020-09-28 13:21:25,2020-10-03 03:14:00,6592.583333333333,Slow traffic on FL-826 from FL-7/Florida's Tpke (FL-826) to 2nd Ave (FL-826) due to accident.,FL-7,Miami,Miami-Dade,FL,2020.0,train
+A-6689601,Source1,4,2020-09-25 15:25:30,2020-09-30 02:22:15,6416.75,Road OR-22 is closed from NFD-11 (OR-22) to Gates Hill Rd (OR-22) due to accident.,N Santiam Hwy,Idanha,Linn,OR,2020.0,train
+A-6819272,Source1,2,2020-09-08 08:05:21,2020-09-12 19:00:00,6414.65,The highway is closed. Use alternate routes., Highway 97 N,Chiloquin,Klamath,OR,2020.0,train
+A-5629853,Source1,2,2021-04-19 03:28:00,2021-04-23 12:27:03,6299.05,Slow traffic on Riverside Fwy E - CA-91 E from 7th St (CA-91) to I-215/CA-60 (CA-91) due to accident.,CA-91 E,Riverside,Riverside,CA,2021.0,validation
+A-7777133,Source1,2,2019-08-21 23:22:46,2019-08-26 08:00:00,6277.233333333334,At Spring Creek Rd/Exit 248 - Accident.,I-84 E,La Grande,Union,OR,2019.0,train
+A-7446624,Source1,2,2019-02-11 03:14:07,2019-02-15 11:30:00,6255.883333333333,At Freezeout Ridge Rd - Accident., Highway 74 Lena,Heppner,Morrow,OR,2019.0,train
+A-6007690,Source1,2,2021-06-21 09:30:00,2021-06-25 17:45:00,6255.0,Construction on CENTER ST near HOUSE 1106 Expect delays., N Center St,Mesa,Maricopa,AZ,2021.0,validation
+A-6001782,Source1,2,2021-11-12 04:38:49,2021-11-16 12:46:52,6248.05,Falling rock has closed the road; a detour is in place. Use an alternate route., Scott Rd,Oakland,Douglas,OR,2021.0,validation
+A-5066230,Source1,4,2022-05-20 06:30:00,2022-05-24 13:37:58,6187.966666666666,Incident on KIMBERLINA RD near POPLAR AVE Road closed. Take alternate route., Kimberlina Rd,Wasco,Kern,CA,2022.0,calibration
+A-6775511,Source1,2,2020-11-12 12:29:00,2020-11-16 19:10:30,6161.5,Slow traffic on FL-826 E from 12th Ave (FL-826) to FL-7/Florida's Tpke (FL-826) due to accident.,Palmetto Expy N,Miami,Miami-Dade,FL,2020.0,train
+A-6455312,Source1,2,2021-01-15 11:15:30,2021-01-19 17:27:30,6132.0,Stationary traffic on FL-854 - US-1 S - FL-5 from NE 205th Ter / NE 16th Ave to Aventura Blvd due to accident., NE 205th St,Miami,Miami-Dade,FL,2021.0,validation
+A-6532985,Source1,2,2021-02-12 09:05:41,2021-02-16 15:06:00,6120.316666666667,A crash has occurred causing no to minimum delays. Use caution., Highway 20,Harper,Malheur,OR,2021.0,validation
+A-7444381,Source1,2,2019-02-11 10:00:00,2019-02-15 15:00:00,6060.0,At I-66/Exit 49 - Accident. Lane blocked.,Capital Beltway N,Falls Church,Fairfax County,VA,2019.0,train
+A-6748596,Source1,4,2020-09-10 22:40:07,2020-09-15 03:21:35,6041.466666666666,Road OR-126 is closed from Goodpasture Rd (OR-126) to Heritage Ln (OR-126) due to accident., McKenzie Hwy,Walterville,Lane,OR,2020.0,train
+A-3442126,Source1,3,2016-06-26 01:48:46,2016-06-30 06:00:00,6011.233333333334,At IA-28/IA-401/Merle Hay/Exit 131 - Accident. Lane closed.,I-80 W,Des Moines,Polk,IA,2016.0,train
+A-4950728,Source1,2,2022-06-23 15:37:36,2022-06-27 19:36:58,5999.366666666667,A stall has the EB right lane closed at MP-65. Use caution.,Sunset Hwy E,Beaverton,Washington,OR,2022.0,calibration
+A-6643767,Source1,4,2020-10-29 07:00:00,2020-11-02 08:45:00,5865.0,Construction on CLEARVIEW RD SB near LITTLE TEXAS RD Expect delays., State Park Rd,Travelers Rest,Greenville,SC,2020.0,train
+A-7777709,Source1,2,2019-08-23 10:14:30,2019-08-27 10:14:14,5759.733333333334,Between Buckhorn Ridge Rd and Inspiration Dr W - Accident. Construction work., Buckhorn Ridge Rd,Pioneer,Amador,CA,2019.0,train
+A-7096169,Source1,4,2020-06-18 20:01:14,2020-06-22 20:00:55,5759.683333333333,Closed at RT-290/Chevy Dr - Road closed due to accident. Roadwork. Left lane closed. Ramp restrictions., Bridge St,East Syracuse,Onondaga,NY,2020.0,train
+A-6989823,Source1,4,2020-05-28 18:34:14,2020-06-01 18:33:55,5759.683333333333,Closed at I-10/I-10 Frontage/Casa Grande Hwy - Road closed due to accident. Roadwork., N Davis Ave,Tucson,Pima,AZ,2020.0,train
+A-7247370,Source1,4,2020-02-03 13:25:05,2020-02-07 13:24:44,5759.65,Closed between Central Park W and 5th Ave - Road closed due to accident. Roadwork., W 81st Transverse Rd,New York,New York,NY,2020.0,train
+A-7164862,Source1,4,2020-04-07 20:56:22,2020-04-11 20:55:57,5759.583333333333,Closed at N Victory Pl/N Lincoln St - Road closed due to accident. Roadwork. Right lane blocked.,N Buena Vista St,Burbank,Los Angeles,CA,2020.0,train
+A-7413388,Source1,2,2019-09-10 05:00:22,2019-09-14 04:59:57,5759.583333333333,At I-65/Exit 20 - Accident. Roadwork.,I-65 S,Indianapolis,Marion,IN,2019.0,train
+A-7267268,Source1,2,2020-02-18 13:21:06,2020-02-22 13:20:28,5759.366666666667,At IN-1/Exit 164 - Accident. Roadwork.,I-74 E,Brookville,Dearborn,IN,2020.0,train
+A-7708715,Source1,4,2019-04-12 22:38:41,2019-04-16 22:37:59,5759.3,Ramp to I-84 Eastbound - Accident. Roadwork. Left lane closed.,I-82 E,Hermiston,Umatilla,OR,2019.0,train
+A-6181768,Source1,2,2021-06-24 00:00:00,2021-06-27 23:59:00,5759.0,Incident on 88TH ST EB near BYRON AVE Road closed. Take alternate route., 88th St,Miami Beach,Miami-Dade,FL,2021.0,validation
+A-7394491,Source1,4,2019-09-22 04:56:13,2019-09-26 04:54:59,5758.766666666666,Closed between 140th St E and 30th St E - Road closed due to accident. Roadwork., E Avenue E,Lancaster,Los Angeles,CA,2019.0,train
+A-7273763,Source1,4,2020-02-22 12:33:03,2020-02-26 12:31:48,5758.75,Closed between Soto St and E 6th St - Road closed due to accident. Roadwork., Whittier Blvd,Los Angeles,Los Angeles,CA,2020.0,train
+A-7342328,Source1,4,2019-10-15 16:44:51,2019-10-19 16:43:32,5758.683333333333,Closed between M-44-CONN/Plainfield Ave/Exit 33 and I-196/Gerald R Ford Fwy - Road closed due to accident. Roadwork. Right lane blocked.,I-96 E,Grand Rapids,Kent,MI,2019.0,train
+A-7747861,Source1,4,2019-08-26 10:44:24,2019-08-30 10:42:39,5758.25,Closed between Boyle Ave and E 6th St - Road closed due to accident. Roadwork.,Whittier Blvd,Los Angeles,Los Angeles,CA,2019.0,train
+A-6994512,Source1,4,2020-05-31 18:36:27,2020-06-04 18:33:55,5757.466666666666,Closed between 111th Ave and El Mirage Rd - Road closed due to accident. Roadwork., W Northern Ave,Peoria,Maricopa,AZ,2020.0,train
+A-7733149,Source1,2,2019-06-03 18:03:12,2019-06-07 17:59:38,5756.433333333333,At CA-163/6th Ave/10th Ave/Exit 16 - Accident. Roadwork., 3rd Ave,San Diego,San Diego,CA,2019.0,train
+A-7774514,Source1,2,2019-08-16 17:42:15,2019-08-20 17:26:07,5743.866666666667,At ID-55/Exit 33 - Accident. Roadway reduced to 1 lane.,I-84 E,Caldwell,Canyon,ID,2019.0,train
+A-6266357,Source1,2,2021-12-16 12:02:23,2021-12-20 11:45:00,5742.616666666667,A hazardous materials cleanup is causing minimal delay. Use caution.,Wilson Ln,Kent,Sherman,OR,2021.0,validation
+A-6999157,Source1,2,2020-06-03 16:26:41,2020-06-07 16:09:02,5742.35,At ID-7/Gilbert Rd - Accident involving heavy truck., Highway 12,Orofino,Clearwater,ID,2020.0,train
+A-6491175,Source1,2,2021-02-09 12:16:32,2021-02-13 11:45:00,5728.466666666666,Incident on I-84 EB near MP 345 Road hazard. Expect long delays.,I-84 E,Huntington,Baker,OR,2021.0,validation
+A-6567405,Source1,4,2021-02-12 17:27:55,2021-02-16 16:50:00,5722.083333333333,Incident on OR-214 NB near MP 31 Expect delays., Silver Falls Dr SE,Silverton,Marion,OR,2021.0,validation
+A-1146579,Source2,3,2021-02-15 05:06:50,2021-02-19 04:28:46,5721.933333333333,Entry ramp to Tx-8-Beltway Eastbound from Eastex Fwy Northbound closed due to ice.,Eddie Dr,Humble,Harris,TX,2021.0,validation
+A-6773471,Source1,2,2020-09-15 15:09:12,2020-09-19 14:00:00,5690.8,The highway is closed. Use alternate routes., W Main St,Silverton,Marion,OR,2020.0,train
+A-7252059,Source1,2,2020-02-06 15:37:34,2020-02-10 14:24:06,5686.533333333334,At US-89 - Accident. Roadway reduced to 1 lane.,US-26 E,Irwin,Bonneville,ID,2020.0,train
+A-7723128,Source1,3,2019-05-15 14:41:14,2019-05-19 13:23:16,5682.033333333334,At US-1/US-401/Capital Blvd/Exit 11 - Accident. Construction work.,US-1 N,Raleigh,Wake,NC,2019.0,train
+A-7283576,Source1,2,2020-01-05 18:54:33,2020-01-09 17:33:59,5679.433333333333,At W Carnie Rd/W Kidd Island Rd - Accident., S Highway 95,Coeur D Alene,Kootenai,ID,2020.0,train
+A-6994586,Source1,2,2020-06-01 15:58:12,2020-06-05 14:17:01,5658.816666666667,At E Twinlow Rd - Accident involving heavy truck., N Highway 41,Spirit Lake,Kootenai,ID,2020.0,train
+A-4666675,Source1,2,2022-12-01 17:40:14,2022-12-05 13:58:08,5537.9,A hazardous materials cleanup is causing minimal delay to traffic. Use caution.,I-84 W,Pendleton,Umatilla,OR,2022.0,calibration
+A-6329949,Source1,2,2021-05-06 13:58:21,2021-05-10 08:53:00,5454.65,Incident on US-20 EB near MP 81 Drive with caution.,Central Oregon Hwy,Silver Lake,Lake,OR,2021.0,validation
+A-6974015,Source1,2,2020-09-11 00:50:58,2020-09-14 19:00:00,5409.033333333334,Hazardous debris is causing no to minimum delays. Use caution.,US-30 W,Mosier,Wasco,OR,2020.0,train
+A-6600564,Source1,4,2020-09-09 14:20:00,2020-09-13 06:59:00,5319.0,Road OR-99 is closed from E Rapp Rd (OR-99) to S Valley View Rd (OR-99) due to accident landslips. Passable with care., Highway 99 N,Ashland,Jackson,OR,2020.0,train
+A-6511737,Source1,2,2021-02-11 20:27:00,2021-02-15 11:37:30,5230.5,Slow traffic from US-30/Exit 3 (I-405) to I-5 (Portland) (North) (I-405) due to accident.,Fremont Bridge,Portland,Multnomah,OR,2021.0,validation
+A-6463327,Source1,2,2021-01-06 15:59:32,2021-01-10 06:59:03,5219.516666666666,Slow traffic on FL-915 - FL-826 from NE 166th St to N Miami Beach Blvd due to accident., NE 6th Ave,Miami,Miami-Dade,FL,2021.0,validation
+A-6353531,Source1,2,2021-02-10 06:23:58,2021-02-13 21:21:00,5217.033333333334,Stationary traffic on I-278 W from Bronx River Ave (Bronx) (North) (I-278) to I-895 (I-278) due to accident.,Bruckner Expy,Bronx,Bronx,NY,2021.0,validation
+A-4270857,Source1,2,2022-10-29 22:24:07,2022-11-02 12:51:17,5187.166666666667,Incident on BLUFF RD near SIMMONS ST Expect delays., Simmons St,Columbia,Richland,SC,2022.0,calibration
+A-5162354,Source1,2,2022-02-27 04:16:49,2022-03-02 18:40:25,5183.6,Incident on SINGING HALL RD near WREN SCHOOL RD Drive with caution., Singing Hall Rd,Piedmont,Anderson,SC,2022.0,calibration
+A-6636230,Source1,2,2020-07-31 00:54:38,2020-08-03 14:54:00,5159.366666666667,At I-84 - Accident., S Highway 395,Hermiston,Umatilla,OR,2020.0,train
+A-5598535,Source1,2,2021-04-05 03:47:30,2021-04-08 17:44:29,5156.983333333334,Slow traffic on US-1 N - US-9 N from Urbanowitz Ave / E Linden Ave to Carlton St / Allen St due to accident., S Park Ave,Linden,Union,NJ,2021.0,validation
+A-5747052,Source1,2,2021-04-07 03:54:30,2021-04-10 17:30:37,5136.116666666667,Slow traffic from W 70th St to I-110 S due to accident., S Figueroa St,Los Angeles,Los Angeles,CA,2021.0,validation
+A-6252659,Source1,2,2021-05-17 05:10:30,2021-05-20 18:40:01,5129.516666666666,Slow traffic on FL-948 - FL-969 from NW 34th St to NW 74th Ave due to accident., NW 72nd Ave,Miami,Miami-Dade,FL,2021.0,validation
+A-5602087,Source1,2,2021-05-03 06:29:42,2021-05-06 18:13:49,5024.116666666667,Slow traffic on FL-826 from 2nd Ave (FL-826) to FL-915/6th Ave (FL-826) due to accident., NE 167th St,Miami,Miami-Dade,FL,2021.0,validation
+A-5555475,Source1,2,2021-05-03 06:29:42,2021-05-06 16:59:05,4949.383333333333,Slow traffic on FL-826 from 2nd Ave (FL-826) to FL-915/6th Ave (FL-826) due to accident., NE 167th St,Miami,Miami-Dade,FL,2021.0,validation
+A-5805647,Source1,2,2021-05-21 05:08:00,2021-05-24 15:29:06,4941.1,Stationary traffic from FL-860/NW 183rd St/Miami Gardens Dr (Ludlam Rd/NW 67th Ave) to Miami Lakes Dr (Ludlam Rd/NW 67th Ave) due to accident.,NW 67th Ave,Hialeah,Miami-Dade,FL,2021.0,validation
+A-6232873,Source1,2,2021-04-21 02:59:00,2021-04-24 13:03:42,4924.7,Slow traffic on FL-934 - US-441 N from NW 8th Ave to NW 81st St due to accident., NW 8th Ave,Miami,Miami-Dade,FL,2021.0,validation
+A-6388126,Source1,2,2021-01-13 16:15:22,2021-01-17 02:15:00,4919.633333333333,High water is causing no to minimum delays. Use caution., Alsea Hwy,Alsea,Benton,OR,2021.0,validation
+A-5616285,Source1,2,2021-05-22 00:40:30,2021-05-25 09:56:58,4876.466666666666,Stationary traffic on VA-407 from Regent University Dr to I-64 W due to accident.,Regent University Dr,Virginia Beach,Virginia Beach,VA,2021.0,validation
+A-6275755,Source1,2,2021-05-03 06:29:42,2021-05-06 15:31:57,4862.25,Stationary traffic on FL-826 from 2nd Ave (FL-826) to FL-915/6th Ave (FL-826) due to accident., NE 167th St,Miami,Miami-Dade,FL,2021.0,validation
+A-6839334,Source1,2,2020-10-26 15:00:00,2020-10-29 23:45:00,4845.0,Incident on OR-18 EB near MP 6 Drive with caution., Salmon River Hwy,Otis,Lincoln,OR,2020.0,train
+A-6468709,Source1,2,2021-02-11 12:05:00,2021-02-14 20:40:00,4835.0,Slow traffic on Veterans Memorial Fwy N - I-205 N - E Portland Fwy N from Division St/Exit 19 (I-205) to WA-14/Exit 27 (I-205) due to accident.,E Portland Fwy N,Portland,Multnomah,OR,2021.0,validation
+A-5622950,Source1,2,2021-02-25 05:07:00,2021-02-28 13:07:11,4800.183333333333,Slow traffic on I-195 E from exit [5] to Miami Beach due to accident.,I-195,Miami Beach,Miami-Dade,FL,2021.0,validation
+A-7550686,Source1,4,2018-08-20 21:00:00,2018-08-24 05:00:00,4800.0,Ramp closed to M-10 Northbound and W 11 Mile Rd - Road closed due to accident.,Corporate Dr,Southfield,Oakland,MI,2018.0,train
+A-5035103,Source1,2,2022-09-26 10:47:00,2022-09-29 16:46:20,4679.333333333333,NYSTA - Statewide Ops.: crash on I-90 - NYS Thruway eastbound at Before Exit 49 (I-90) - Depew (Rte 78) starting 2:30 PM 09/29/2022 [CARS CAD-222720245],I-90 W,Akron,Erie,NY,2022.0,calibration
+A-6470993,Source1,2,2021-01-20 02:52:58,2021-01-23 07:00:00,4567.033333333334,A disabled vehicle is creating a hazard causing no to minimum delays. Use caution.,I-84 E,Pendleton,Umatilla,OR,2021.0,validation
+A-6388661,Source1,2,2021-01-20 02:52:58,2021-01-23 07:00:00,4567.033333333334,A disabled vehicle is creating a hazard causing no to minimum delays. Use caution.,I-84 E,Pendleton,Umatilla,OR,2021.0,validation
+A-5736200,Source1,2,2021-06-25 15:24:47,2021-06-28 19:24:00,4559.216666666666,A wildfire in the area is causing no to minimum delays. Use caution., Highway 205,Burns,Harney,OR,2021.0,validation
+A-5837996,Source1,2,2021-08-13 06:49:34,2021-08-16 10:45:00,4555.433333333333,A crash has occurred causing no to minimum delays. Use caution.,Steens Hwy,Jordan Valley,Malheur,OR,2021.0,validation
+A-2095438,Source2,2,2019-05-10 09:27:01,2019-05-13 12:11:00,4483.983333333334,Accident on 86th St Southbound at Lakeaire Dr.,Lakeaire Dr,Oklahoma City,Oklahoma,OK,2019.0,train
+A-6432413,Source1,2,2021-01-21 17:02:00,2021-01-24 19:29:54,4467.9,Crash on EISENHOWER BL both directions between (SOMERSET County Line)+ KRINGS RD and KRINGS ST. There is a lane restriction., Kring St,Johnstown,Cambria,PA,2021.0,validation
+A-5517340,Source1,2,2021-09-25 11:40:21,2021-09-28 14:07:28,4467.116666666667,Incident on US-87 E near HILLNER LN Drive with caution., Hillner Ln,Billings,Yellowstone,MT,2021.0,validation
+A-5580220,Source1,2,2021-04-18 19:23:42,2021-04-21 21:45:00,4461.3,Incident on OR-370 EB near MP 7 Drive with caution., NW Oneil Hwy,Prineville,Crook,OR,2021.0,validation
+A-756287,Source2,3,2021-12-31 02:22:33,2022-01-03 04:42:00,4459.45,Entry ramp to Interlocken Loop Eastbound from W Midway Blvd Southbound closed due to marshall wild fire. Evacuation.,Denver Boulder Tpke W,Broomfield,Broomfield,CO,2021.0,validation
+A-5650116,Source1,2,2021-04-14 13:54:00,2021-04-17 16:09:08,4455.133333333333,Slow traffic on I-195 E from US-1/Biscayne Blvd (I-195) to Alton Rd (I-195) due to accident.,I-195 E,Miami,Miami-Dade,FL,2021.0,validation
+A-6728972,Source1,4,2020-09-09 17:52:30,2020-09-12 19:55:23,4442.883333333333,Road OR-126 is closed from Goodpasture Rd (OR-126) to Heritage Ln (OR-126) due to accident., McKenzie Hwy,Walterville,Lane,OR,2020.0,train
+A-6445502,Source1,2,2021-02-12 09:49:00,2021-02-15 11:44:20,4435.333333333333,Incident on W NINE MILE RD near PINE CONE DR Drive with caution.,W Nine Mile Rd,Pensacola,Escambia,FL,2021.0,validation
+A-756293,Source2,3,2021-12-31 02:22:33,2022-01-03 04:10:00,4427.45,Entry ramp to Us-36 Westbound from Mccaslin Blvd Southbound closed due to marshall wild fire. Evacuation.,Us Highway 36 Bus Ramp Bb,Louisville,Boulder,CO,2021.0,validation
+A-6732295,Source1,2,2020-12-08 10:22:51,2020-12-11 12:08:30,4425.65,Slow traffic on Golden State Fwy N - I-5 N from Fort Tejon Rd (I-5) to Grapevine Rd (I-5) due to accident.,Golden State Fwy N,Lebec,Kern,CA,2020.0,train
+A-6603509,Source1,2,2020-12-08 10:22:51,2020-12-11 11:56:30,4413.65,Slow traffic on Golden State Fwy N - I-5 N from Fort Tejon Rd (I-5) to Grapevine Rd (I-5) due to accident.,Golden State Fwy N,Lebec,Kern,CA,2020.0,train
+A-4943443,Source1,2,2021-12-30 18:00:00,2022-01-02 18:58:00,4378.0,Incident on I-80 EB near I-80 Drive with caution.,I-80 E,Coalville,Summit,UT,2021.0,validation
+A-4494021,Source1,2,2021-12-30 18:41:00,2022-01-02 19:38:00,4377.0,Incident on I-80 WB near I-80 Drive with caution.,I-80 W,Salt Lake City,Salt Lake,UT,2021.0,validation
