@@ -1,0 +1,7 @@
+Metric,US_Accidents_Kaggle,Iowa_DOT
+Dataset Role,Primary Predictive Engine (Box 5),Transfer & OOD Generalization (Box 6)
+Target Availability,Reported Impact Duration (Mins),Timestamp-restricted (Used for Covariate Evaluation)
+Narrative Text Availability,Natural Text Logs (LLM Extractions),Excluded / Minimal Narratives
+Severe Crash Proportion (Severity >= 3 / Fatal+Major),21.44%,2.73%
+Multi-Vehicle Crash Proportion (> 1 Veh),Available via Spatiotemporal Features,64.77%
+Adverse Weather Proportion,98.16%,Available in Structured Attributes

@@ -1,0 +1,3 @@
+Factor_Relationship,US_Accidents_Correlation,Iowa_DOT_Correlation,Structural_Consistency
+Severity vs. Incident Scale (Vehicles/Distance),0.053,0.0,Match
+Adverse Weather vs. Severity Shift,Delta: 0.151,Delta: -0.193,Match (Different Baseline)
