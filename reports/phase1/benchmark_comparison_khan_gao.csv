@@ -1,0 +1,5 @@
+Framework,Modality,Technique,MedAE (mins),MAE (mins),RMSE,Uncertainty / Safety,Interpretability
+Khan et al. (2026) Baseline,Structured Only,Traditional Parametric HBDM (LogNormal),48.73,80.37,156.66,Deterministic (No Bounds),Global Coefficients Only
+Gao et al. (2026) Analogue,Structured + Text Semantics,Standard Gradient Boosting + Raw SHAP,21.55,57.15,137.96,Deterministic (No Bounds),Conflated Correlation/Causality
+Proposed System (All Data),Tri-Modal Gated Fusion,MedAE K-Means Soft MoE,20.52,75.21,367.7,Calibrated (PICP 60%),Decoupled (Multi-Level TreeSHAP)
+Proposed System (Reliability-Gated),Tri-Modal Gated Fusion,MoE + OOD Isolation Forest,17.56,69.2,381.49,OOD-Aware Abstention Gate,Decoupled + Verifiable Safe Routing
