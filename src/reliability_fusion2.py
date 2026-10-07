@@ -20,6 +20,14 @@ def main():
     # READ FROM THE NEW SPATIOTEMPORAL PARQUET FILE
     df_struct = pd.read_parquet(processed_dir / "us_accidents_spatiotemporal.parquet")
     df_sem = pd.read_csv(processed_dir / "us_accidents_semantic_features.csv")
+    # Prefix at load time: existing extraction CSVs do not need re-extraction.
+    # Keep column order and values unchanged for the all-feature exporter.
+    df_sem = df_sem.rename(columns={
+        c: f"semantic_{c}" for c in df_sem.columns
+        if c != "ID" and not c.lower().startswith(("semantic_", "llm_"))
+    })
+    if not df_sem.columns.is_unique:
+        raise ValueError("Semantic CSV has duplicate fields after prefixing.")
     df_emb = pd.read_csv(processed_dir / "us_accidents_embeddings.csv")
 
     print("Step 2: Merging Data Streams for Perfect Alignment...")

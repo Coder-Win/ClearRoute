@@ -25,9 +25,13 @@ def run_full_ablation():
     df = df[valid_mask].copy()
 
     df_num = df.select_dtypes(include=[np.number])
-    emb_cols = [c for c in df_num.columns if 'emb_' in c or 'embedding' in c]
-    sem_cols = [c for c in df_num.columns if 'semantic_' in c or 'llm_' in c.lower()]
-    struct_cols = [c for c in df_num.columns if c not in emb_cols + sem_cols + [target, 'event_observed', 'ID']]
+    # Quality signals are gate context, not structured or semantic expert inputs.
+    gate_cols = [c for c in df_num.columns if c.startswith('gate_q_')]
+    emb_cols = [c for c in df_num.columns if c.startswith('emb_') or 'embedding' in c.lower()]
+    sem_cols = [c for c in df_num.columns if c.lower().startswith(('semantic_', 'llm_'))]
+    struct_cols = [c for c in df_num.columns if c not in emb_cols + sem_cols + gate_cols + [target, 'event_observed', 'ID']]
+    if not sem_cols:
+        raise ValueError("No semantic features found. Rerun src/reliability_fusion2.py first.")
 
     idx_train, idx_test = train_test_split(df.index, test_size=0.2, random_state=42)
     df_train, df_test = df.loc[idx_train].fillna(0), df.loc[idx_test].fillna(0)
@@ -39,7 +43,7 @@ def run_full_ablation():
         ('2. Struct+Sem', struct_cols + sem_cols),
         ('3. Struct+Emb', struct_cols + emb_cols),
         ('4. Dumb Join', struct_cols + emb_cols + sem_cols),
-        ('5. Gated Fusion', struct_cols + emb_cols + sem_cols)
+        ('5. Gated Fusion', struct_cols + emb_cols + sem_cols + gate_cols)
     ]
 
     results = []
@@ -83,8 +87,8 @@ def run_full_ablation():
                 meta_X_tr = pd.DataFrame({'exp_struct': tr_p1, 'exp_emb': tr_p2, 'exp_sem': tr_p3})
                 meta_X_te = pd.DataFrame({'exp_struct': te_p1, 'exp_emb': te_p2, 'exp_sem': te_p3})
 
-                # Context-Aware Gating: Append semantics and key physical context features
-                context_cols = sem_cols + [c for c in struct_cols if 'distance' in c.lower() or 'hour' in c.lower()]
+                # Context-Aware Gating: Append semantics, quality signals and physical context
+                context_cols = sem_cols + gate_cols + [c for c in struct_cols if 'distance' in c.lower() or 'hour' in c.lower()]
                 
                 meta_X_tr = pd.concat([meta_X_tr, df_train[context_cols].reset_index(drop=True)], axis=1)
                 meta_X_te = pd.concat([meta_X_te, df_test[context_cols].reset_index(drop=True)], axis=1)
