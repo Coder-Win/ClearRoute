@@ -36,8 +36,3 @@ audit:
 duration:
   minimum_valid_minutes: 1
   review_threshold_minutes: 10080
-
-modeling:
-  fused_data: "data/processed/us_accidents_fused_multimodal.csv"
-  dumb_join_data: "data/processed/us_accidents_dumb_join.csv"
-  metrics_report: "reports/phase0/ablation_metrics.csv"

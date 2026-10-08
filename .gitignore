@@ -1,2 +1,13 @@
-﻿data/
+data/
 catboost_info/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Regenerable data and outputs
+*.parquet
+reports/phase0/
+reports/**/*predictions*.csv
+configs/generated/
