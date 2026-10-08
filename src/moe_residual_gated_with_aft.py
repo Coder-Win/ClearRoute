@@ -31,7 +31,7 @@ def run_full_ablation():
     gate_cols = [c for c in df_num.columns if c.startswith('gate_q_')]
     emb_cols = [c for c in df_num.columns if c.startswith('emb_') or 'embedding' in c.lower()]
     sem_cols = [c for c in df_num.columns if c.lower().startswith(('semantic_', 'llm_'))]
-    struct_cols = [c for c in df_num.columns if c not in emb_cols + sem_cols + gate_cols + [target, 'event_observed', 'ID', 'split', 'is_secondary_crash', 'primary_incident_id']]
+    struct_cols = [c for c in df_num.columns if c not in emb_cols + sem_cols + gate_cols + [target, 'event_observed', 'ID', 'split', 'primary_incident_id']]
     if not sem_cols:
         raise ValueError("No semantic features found. Rerun src/reliability_fusion2.py first.")
 

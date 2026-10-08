@@ -23,7 +23,7 @@ def show_real_predictions_with_curves():
     censor = df['event_observed']
     
     # Drop targets to create feature set
-    cols_to_drop = [target_col, 'ID', 'event_observed', 'split', 'is_secondary_crash', 'primary_incident_id']
+    cols_to_drop = [target_col, 'ID', 'event_observed', 'split', 'primary_incident_id']
     X = df.drop(columns=[c for c in cols_to_drop if c in df.columns]).select_dtypes(include=[np.number])
     
     idx_train, _, idx_test = chronological_indices(df)

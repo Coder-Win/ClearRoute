@@ -35,7 +35,7 @@ def generate_merged_outputs():
     censor_train = censor.loc[idx_train]
     
     # Prepare Features (drop targets and split tags)
-    cols_to_drop = [target_col, 'ID', 'event_observed', 'split', 'Data_Split', 'is_secondary_crash', 'primary_incident_id']
+    cols_to_drop = [target_col, 'ID', 'event_observed', 'split', 'Data_Split', 'primary_incident_id']
     X_train = df_train.drop(columns=[c for c in cols_to_drop if c in df_train.columns]).select_dtypes(include=[np.number])
     X_calib = df_calib.drop(columns=[c for c in cols_to_drop if c in df_calib.columns]).select_dtypes(include=[np.number])
     X_test = df_test.drop(columns=[c for c in cols_to_drop if c in df_test.columns]).select_dtypes(include=[np.number])

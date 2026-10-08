@@ -71,7 +71,7 @@ def evaluate_models():
         df_aligned = df.loc[master_df.index]
         if not df_aligned['ID'].equals(master_df['ID']) or not df_aligned['split'].equals(master_df['split']):
             raise ValueError('Ablation IDs/splits differ. Rerun reliability_fusion2.')
-        cols_to_drop = [target_col, 'ID', 'event_observed', 'split', 'is_secondary_crash', 'primary_incident_id']
+        cols_to_drop = [target_col, 'ID', 'event_observed', 'split', 'primary_incident_id']
         X = df_aligned.drop(columns=[c for c in cols_to_drop if c in df_aligned.columns]).select_dtypes(include=[np.number])
         
         X_train, X_test = X.loc[idx_train], X.loc[idx_test]
