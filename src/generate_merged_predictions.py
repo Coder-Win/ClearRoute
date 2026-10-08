@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from sklearn.model_selection import train_test_split
+from split import chronological_indices
 from sklearn.utils.class_weight import compute_sample_weight
 from pathlib import Path
 
@@ -18,13 +18,11 @@ def generate_merged_outputs():
     df = df[valid_mask]
     
     y = df[target_col]
-    censor = df['event_observed'] if 'event_observed' in df.columns else pd.Series(np.ones(len(df)), index=df.index)
+    censor = df['event_observed']
     
-    # PRESERVING THE EXACT TEST SET FOR FAIR COMPARISON
-    # We split the original 80% train set to carve out a dedicated Calibration set
-    idx_train_val, idx_test = train_test_split(df.index, test_size=0.2, random_state=42)
-    idx_train, idx_calib = train_test_split(idx_train_val, test_size=0.15, random_state=42) 
-    
+    # Use the audit's dedicated calibration year, with no extra 15% carve-out.
+    idx_train, idx_calib, idx_test = chronological_indices(df)
+
     df_train = df.loc[idx_train]
     df_calib = df.loc[idx_calib].copy()
     df_test = df.loc[idx_test].copy()
@@ -37,7 +35,7 @@ def generate_merged_outputs():
     censor_train = censor.loc[idx_train]
     
     # Prepare Features (drop targets and split tags)
-    cols_to_drop = [target_col, 'ID', 'event_observed', 'Data_Split']
+    cols_to_drop = [target_col, 'ID', 'event_observed', 'split', 'Data_Split', 'is_secondary_crash', 'primary_incident_id']
     X_train = df_train.drop(columns=[c for c in cols_to_drop if c in df_train.columns]).select_dtypes(include=[np.number])
     X_calib = df_calib.drop(columns=[c for c in cols_to_drop if c in df_calib.columns]).select_dtypes(include=[np.number])
     X_test = df_test.drop(columns=[c for c in cols_to_drop if c in df_test.columns]).select_dtypes(include=[np.number])

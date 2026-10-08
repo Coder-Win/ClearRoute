@@ -27,10 +27,10 @@ def engineer_survival_and_causality(input_path, output_path, radius_miles=2.0, t
     # Initialize all as observed (1)
     df['event_observed'] = 1
     
-    # Flag extreme outliers as censored (0) using the correct duration column
+    # Administrative right-censoring at 24h: the event time exceeds this bound.
     df.loc[df['reported_duration_minutes'] > MAX_DURATION_MINS, 'event_observed'] = 0
     
-    # Cap the duration for the censored events
+    # Store the lower bound, not an observed completion time, for censored events.
     df.loc[df['reported_duration_minutes'] > MAX_DURATION_MINS, 'reported_duration_minutes'] = MAX_DURATION_MINS
 
     # =====================================================================
@@ -84,6 +84,7 @@ def engineer_survival_and_causality(input_path, output_path, radius_miles=2.0, t
                 primary_incident_id[neighbor_idx] = ids[i]
 
     # Map the results back to the Pandas DataFrame
+    # Retrospective diagnostics only: these use End_Time and must not be predictors.
     df['is_secondary_crash'] = is_secondary
     df['primary_incident_id'] = primary_incident_id
 

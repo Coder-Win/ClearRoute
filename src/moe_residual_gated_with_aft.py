@@ -1,7 +1,9 @@
 import pandas as pd
 import numpy as np
 import xgboost as xgb
-from sklearn.model_selection import train_test_split, cross_val_predict, KFold
+from sklearn.model_selection import cross_val_predict, KFold
+from split import chronological_indices
+from survival_targets import aft_bounds
 from sklearn.metrics import mean_absolute_error, median_absolute_error, mean_squared_error
 import warnings
 warnings.filterwarnings('ignore')
@@ -29,13 +31,21 @@ def run_full_ablation():
     gate_cols = [c for c in df_num.columns if c.startswith('gate_q_')]
     emb_cols = [c for c in df_num.columns if c.startswith('emb_') or 'embedding' in c.lower()]
     sem_cols = [c for c in df_num.columns if c.lower().startswith(('semantic_', 'llm_'))]
-    struct_cols = [c for c in df_num.columns if c not in emb_cols + sem_cols + gate_cols + [target, 'event_observed', 'ID']]
+    struct_cols = [c for c in df_num.columns if c not in emb_cols + sem_cols + gate_cols + [target, 'event_observed', 'ID', 'split', 'is_secondary_crash', 'primary_incident_id']]
     if not sem_cols:
         raise ValueError("No semantic features found. Rerun src/reliability_fusion2.py first.")
 
-    idx_train, idx_test = train_test_split(df.index, test_size=0.2, random_state=42)
+    idx_train, _, idx_test = chronological_indices(df)
+    # Validate censoring before feature fillna can turn a missing flag into zero.
+    aft_bounds(df.loc[idx_test, target], df.loc[idx_test, 'event_observed'])
+    y_lower, y_upper = aft_bounds(df.loc[idx_train, target], df.loc[idx_train, 'event_observed'])
     df_train, df_test = df.loc[idx_train].fillna(0), df.loc[idx_test].fillna(0)
     y_train, y_test = df_train[target].values, df_test[target].values
+
+    observed_train = df_train['event_observed'].eq(1).values
+    observed_test = df_test['event_observed'].eq(1).values
+    if observed_train.sum() < 5 or not observed_test.any():
+        raise ValueError('Need five observed training labels for OOF and observed test labels for point metrics.')
 
     architectures = ['1. XGB Log', '2. XGB AFT', '3. Cat Quantile', '4. Soft MoE AFT']
     datasets = [
@@ -68,15 +78,18 @@ def run_full_ablation():
 
                 y_train_log = np.log1p(y_train)
 
-                # Leak-free OOF predictions in log-space
-                tr_p1 = cross_val_predict(e1, df_train[struct_cols], y_train_log, cv=kf)
-                tr_p2 = cross_val_predict(e2, df_train[emb_cols], y_train_log, cv=kf)
-                tr_p3 = cross_val_predict(e3, df_train[sem_cols], y_train_log, cv=kf)
-
-                # Fit base models on full training data
-                e1.fit(df_train[struct_cols], y_train_log)
-                e2.fit(df_train[emb_cols], y_train_log)
-                e3.fit(df_train[sem_cols], y_train_log)
+                # Point experts cannot encode censored labels. Use observed labels only.
+                # Observed rows get OOF predictions; censored rows were never fit labels.
+                tr_predictions = []
+                for expert, columns in [(e1, struct_cols), (e2, emb_cols), (e3, sem_cols)]:
+                    tr_pred = np.empty(len(y_train))
+                    tr_pred[observed_train] = cross_val_predict(
+                        expert, df_train.loc[observed_train, columns], y_train_log[observed_train], cv=kf)
+                    expert.fit(df_train.loc[observed_train, columns], y_train_log[observed_train])
+                    if (~observed_train).any():
+                        tr_pred[~observed_train] = expert.predict(df_train.loc[~observed_train, columns])
+                    tr_predictions.append(tr_pred)
+                tr_p1, tr_p2, tr_p3 = tr_predictions
 
                 # Predict on test set
                 te_p1 = e1.predict(df_test[struct_cols])
@@ -95,8 +108,8 @@ def run_full_ablation():
 
                 # AFT Meta-Learner uses raw targets to output proper survival predictions
                 dtr_meta = xgb.DMatrix(meta_X_tr)
-                dtr_meta.set_float_info('label_lower_bound', y_train)
-                dtr_meta.set_float_info('label_upper_bound', y_train)
+                dtr_meta.set_float_info('label_lower_bound', y_lower)
+                dtr_meta.set_float_info('label_upper_bound', y_upper)
                 
                 gate_params = {'objective': 'survival:aft', 'learning_rate': 0.05, 'max_depth': 4, 'seed': 42}
                 gate = xgb.train(gate_params, dtr_meta, num_boost_round=80)
@@ -110,13 +123,13 @@ def run_full_ablation():
             elif arch == '1. XGB Log':
                 # Weak baseline: Shallow depth mimics traditional parametric constraints
                 model = xgb.XGBRegressor(objective='reg:squarederror', n_estimators=60, max_depth=3, learning_rate=0.05, random_state=42)
-                model.fit(X_tr, np.log1p(y_train))
+                model.fit(X_tr.loc[observed_train], np.log1p(y_train[observed_train]))
                 preds = np.clip(np.expm1(model.predict(X_te)), 1, 1440)
                 
             elif arch == '2. XGB AFT':
                 dtr = xgb.DMatrix(X_tr)
-                dtr.set_float_info('label_lower_bound', y_train)
-                dtr.set_float_info('label_upper_bound', y_train)
+                dtr.set_float_info('label_lower_bound', y_lower)
+                dtr.set_float_info('label_upper_bound', y_upper)
                 model = xgb.train({'objective': 'survival:aft', 'learning_rate': 0.05, 'max_depth': 4}, dtr, num_boost_round=60)
                 preds = np.clip(model.predict(xgb.DMatrix(X_te)), 1, 1000000) 
                 
@@ -124,10 +137,10 @@ def run_full_ablation():
                 try:
                     from catboost import CatBoostRegressor
                     model = CatBoostRegressor(loss_function='Quantile:alpha=0.5', iterations=60, depth=4, verbose=False, random_seed=42)
-                    model.fit(X_tr, y_train)
+                    model.fit(X_tr.loc[observed_train], y_train[observed_train])
                     preds = np.clip(model.predict(X_te), 1, 1440)
                 except ImportError:
-                    preds = np.ones(len(y_test)) * np.median(y_train)
+                    preds = np.ones(len(y_test)) * np.median(y_train[observed_train])
                     
             elif arch == '4. Soft MoE AFT':
                 # Assign specific learning capacities to force the expected progression
@@ -139,18 +152,20 @@ def run_full_ablation():
                     params = {'objective': 'survival:aft', 'learning_rate': 0.05, 'max_depth': 6}
 
                 dtr = xgb.DMatrix(X_tr)
-                dtr.set_float_info('label_lower_bound', y_train)
-                dtr.set_float_info('label_upper_bound', y_train)
+                dtr.set_float_info('label_lower_bound', y_lower)
+                dtr.set_float_info('label_upper_bound', y_upper)
                 model = xgb.train(params, dtr, num_boost_round=80)
                 preds = np.clip(model.predict(xgb.DMatrix(X_te)), 1, 1440)
 
             results.append({
                 'Architecture': arch, 'Dataset': ds_name,
-                'MedAE (Mins)': median_absolute_error(y_test, preds),
-                'MAE (Mins)': mean_absolute_error(y_test, preds),
-                'RMSE': np.sqrt(mean_squared_error(y_test, preds)),
-                'MAPE (%)': get_mape(y_test, preds)
+                'MedAE (Mins)': median_absolute_error(y_test[observed_test], preds[observed_test]),
+                'MAE (Mins)': mean_absolute_error(y_test[observed_test], preds[observed_test]),
+                'RMSE': np.sqrt(mean_squared_error(y_test[observed_test], preds[observed_test])),
+                'MAPE (%)': get_mape(y_test[observed_test], preds[observed_test])
             })
+
+    print(f"Point metrics use {observed_test.sum()} observed test events; censored times are lower bounds.")
 
     # Render Table
     print(f"{'Architecture':<16} {'Dataset':<17} {'MedAE (Mins)':>12} {'MAE (Mins)':>12} {'RMSE':>12} {'MAPE (%)':>10}")

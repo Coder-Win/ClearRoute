@@ -44,11 +44,11 @@ def main():
         # Pipeline Metadata (No predictive value)
         'dataset_source', 'target_name', 'target_definition', 'split',
         # Exclude the string ID from the spatial step
-        'primary_incident_id'
+        'primary_incident_id', 'is_secondary_crash'
     }
 
     # Only safely filter columns that actually belong to the structured feature set.
-    # NOTE: 'is_secondary_crash' will automatically be included here as a valid feature!
+    # Secondary-crash diagnostics depend on End_Time, so never use them as predictors.
     struct_cols = [c for c in df_struct.columns if c not in explicit_exclude]
     sem_cols = [c for c in df_sem.columns if c != 'ID']
 
@@ -72,7 +72,7 @@ def main():
     print("Step 5: Generating Cleaned Ablation Datasets...")
     
     # ADDED event_observed to the base targets to pass it to the models
-    base_targets = ['ID', 'reported_duration_minutes', 'event_observed']
+    base_targets = ['ID', 'reported_duration_minutes', 'event_observed', 'split']
     
     # Dataset 1: Structured Only (Target + Safe Tabular features, no semantics, no embeddings, no gates)
     df_struct_only = df_merged[base_targets + struct_cols]

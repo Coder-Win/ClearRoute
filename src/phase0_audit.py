@@ -10,6 +10,8 @@ import numpy as np
 import pandas as pd
 import yaml
 
+from split import create_chronological_split
+
 
 LOGGER = logging.getLogger("phase0_audit")
 
@@ -414,28 +416,6 @@ def create_feature_availability_template(
         )
 
     return pd.DataFrame(rows)
-
-
-def create_chronological_split(
-    dataframe: pd.DataFrame,
-    year_column: str,
-    train_years: list[int],
-    validation_years: list[int],
-    calibration_years: list[int],
-    test_years: list[int],
-) -> pd.Series:
-    split = pd.Series(
-        "unassigned",
-        index=dataframe.index,
-        dtype="object",
-    )
-
-    split.loc[dataframe[year_column].isin(train_years)] = "train"
-    split.loc[dataframe[year_column].isin(validation_years)] = "validation"
-    split.loc[dataframe[year_column].isin(calibration_years)] = "calibration"
-    split.loc[dataframe[year_column].isin(test_years)] = "test"
-
-    return split
 
 
 def save_json(data: dict[str, Any], output_path: Path) -> None:

@@ -2,6 +2,7 @@ import numpy as np
 import xgboost as xgb
 from xgboost import XGBClassifier
 from sklearn.cluster import KMeans
+from survival_targets import aft_bounds
 
 class TreeCompatibleMoE:
     def __init__(self, n_experts=3):
@@ -31,6 +32,8 @@ class TreeCompatibleMoE:
         }
 
     def fit(self, X_train, y_train, censor_train, sample_weight=None):
+        # Validate all labels before routing; individual experts use identical bounds.
+        aft_bounds(y_train, censor_train)
         y_log = np.log1p(y_train).values.reshape(-1, 1)
         # K-Means elegantly handles the power-law skew in log-space
         kmeans = KMeans(n_clusters=self.n_experts, random_state=42, n_init=10)
@@ -52,8 +55,7 @@ class TreeCompatibleMoE:
             
             weight_k = sample_weight[mask] if sample_weight is not None else None
 
-            y_lower = y_k.values
-            y_upper = np.where(censor_k.values == 1, y_k.values, np.inf)
+            y_lower, y_upper = aft_bounds(y_k, censor_k)
 
             dtrain_k = xgb.DMatrix(X_k, weight=weight_k)
             dtrain_k.set_float_info('label_lower_bound', y_lower)

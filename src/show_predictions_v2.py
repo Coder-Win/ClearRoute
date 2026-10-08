@@ -3,7 +3,8 @@ import numpy as np
 import xgboost as xgb
 import matplotlib.pyplot as plt
 import scipy.stats as stats
-from sklearn.model_selection import train_test_split
+from split import chronological_indices
+from survival_targets import aft_bounds
 from xgboost import XGBRegressor
 from catboost import CatBoostRegressor
 
@@ -19,24 +20,28 @@ def show_real_predictions_with_curves():
     df = df[valid_mask]
     
     y = df[target_col]
-    censor = df['event_observed'] if 'event_observed' in df.columns else np.ones(len(df))
+    censor = df['event_observed']
     
     # Drop targets to create feature set
-    cols_to_drop = [target_col, 'ID', 'event_observed']
+    cols_to_drop = [target_col, 'ID', 'event_observed', 'split', 'is_secondary_crash', 'primary_incident_id']
     X = df.drop(columns=[c for c in cols_to_drop if c in df.columns]).select_dtypes(include=[np.number])
     
-    # Split
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-    censor_train, censor_test = train_test_split(censor, test_size=0.2, random_state=42)
+    idx_train, _, idx_test = chronological_indices(df)
+    X_train, X_test = X.loc[idx_train], X.loc[idx_test]
+    y_train, y_test = y.loc[idx_train], y.loc[idx_test]
+    censor_train, censor_test = censor.loc[idx_train], censor.loc[idx_test]
+    y_lower, y_upper = aft_bounds(y_train, censor_train)
+    aft_bounds(y_test, censor_test)
+    observed_train = censor_train.eq(1)
+    if not observed_train.any() or censor_test.eq(1).sum() < 3:
+        raise ValueError('Need observed training labels and three observed test events for this plot.')
 
     # 1. Train XGBoost Log (Standard Point Estimate)
     model_log = XGBRegressor(n_estimators=200, learning_rate=0.0639, max_depth=8, n_jobs=-1, random_state=42)
-    model_log.fit(X_train, np.log1p(y_train))
+    model_log.fit(X_train.loc[observed_train], np.log1p(y_train.loc[observed_train]))
 
     # 2. Train XGBoost-AFT (Survival Expected Time)
     dtrain = xgb.DMatrix(X_train)
-    y_lower = y_train.values
-    y_upper = np.where(censor_train.values == 1, y_train.values, np.inf)
     dtrain.set_float_info('label_lower_bound', y_lower)
     dtrain.set_float_info('label_upper_bound', y_upper)
     
@@ -44,14 +49,14 @@ def show_real_predictions_with_curves():
 
     # 3. Train CatBoost Quantile (Risk Bounds)
     model_cat = CatBoostRegressor(iterations=400, learning_rate=0.1333, depth=7, loss_function='MultiQuantile:alpha=0.1,0.5,0.9', verbose=0, random_seed=42)
-    model_cat.fit(X_train, y_train)
+    model_cat.fit(X_train.loc[observed_train], y_train.loc[observed_train])
 
     print("\n" + "="*70)
     print(" 🚦 REAL-WORLD PREDICTION COMPARISONS ON 3 RANDOM CRASHES 🚦")
     print("="*70)
     
     # Pick 3 random crashes from the test set
-    sample_X = X_test.sample(3, random_state=101)
+    sample_X = X_test.loc[censor_test.eq(1)].sample(3, random_state=101)
     sample_y = y_test.loc[sample_X.index]
     
     # Get predictions

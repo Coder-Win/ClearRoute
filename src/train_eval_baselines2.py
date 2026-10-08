@@ -1,7 +1,8 @@
 import pandas as pd
 import numpy as np
 import xgboost as xgb
-from sklearn.model_selection import train_test_split
+from split import chronological_indices
+from survival_targets import aft_bounds
 from sklearn.metrics import mean_absolute_error, median_absolute_error, mean_squared_error
 from sklearn.utils.class_weight import compute_sample_weight
 from xgboost import XGBRegressor
@@ -39,11 +40,18 @@ def evaluate_models():
     
     y_master = master_df[target_col]
     
-    censor_master = master_df['event_observed'] if 'event_observed' in master_df.columns else pd.Series(np.ones(len(master_df)), index=master_df.index)
+    censor_master = master_df['event_observed']
     
-    idx_train, idx_test = train_test_split(master_df.index, test_size=0.2, random_state=42)
+    idx_train, _, idx_test = chronological_indices(master_df)
     y_train, y_test = y_master.loc[idx_train], y_master.loc[idx_test]
     censor_train, censor_test = censor_master.loc[idx_train], censor_master.loc[idx_test]
+
+    y_lower, y_upper = aft_bounds(y_train, censor_train)
+    aft_bounds(y_test, censor_test)
+    observed_train = censor_train.eq(1)
+    observed_test = censor_test.eq(1)
+    if not observed_train.any() or not observed_test.any():
+        raise ValueError('Observed train/test labels are required for regression and point metrics.')
 
     print("      -> Computing sample weights to balance extreme tail durations...")
     bins = np.digitize(y_train, bins=[30, 60, 120, 240, 1440])
@@ -61,7 +69,9 @@ def evaluate_models():
         print(f"\n  -> Processing Dataset: {ds_name}")
         
         df_aligned = df.loc[master_df.index]
-        cols_to_drop = [target_col, 'ID', 'event_observed']
+        if not df_aligned['ID'].equals(master_df['ID']) or not df_aligned['split'].equals(master_df['split']):
+            raise ValueError('Ablation IDs/splits differ. Rerun reliability_fusion2.')
+        cols_to_drop = [target_col, 'ID', 'event_observed', 'split', 'is_secondary_crash', 'primary_incident_id']
         X = df_aligned.drop(columns=[c for c in cols_to_drop if c in df_aligned.columns]).select_dtypes(include=[np.number])
         
         X_train, X_test = X.loc[idx_train], X.loc[idx_test]
@@ -69,9 +79,9 @@ def evaluate_models():
         # --- 1. XGBoost Log-Transform ---
         print("      * Training XGBoost (Standard Regression)...")
         model_log = XGBRegressor(**p_xgb_log)
-        model_log.fit(X_train, np.log1p(y_train), sample_weight=weights_train)
+        model_log.fit(X_train.loc[observed_train], np.log1p(y_train.loc[observed_train]), sample_weight=weights_train[observed_train])
         preds_log = np.expm1(model_log.predict(X_test))
-        metrics = compute_metrics(y_test, preds_log)
+        metrics = compute_metrics(y_test.loc[observed_test], preds_log[observed_test])
         overall_results.append({'Architecture': '1. XGB Log', 'Dataset': ds_name, **metrics})
 
         # --- 2. XGBoost AFT (Survival Analysis) ---
@@ -79,23 +89,20 @@ def evaluate_models():
         dtrain = xgb.DMatrix(X_train, weight=weights_train)
         dtest = xgb.DMatrix(X_test)
         
-        y_lower = y_train.values
-        y_upper = np.where(censor_train.values == 1, y_train.values, np.inf)
-        
         dtrain.set_float_info('label_lower_bound', y_lower)
         dtrain.set_float_info('label_upper_bound', y_upper)
         
         bst_aft = xgb.train(p_xgb_aft, dtrain, num_boost_round=200)
         preds_aft = bst_aft.predict(dtest)
-        metrics = compute_metrics(y_test, preds_aft)
+        metrics = compute_metrics(y_test.loc[observed_test], preds_aft[observed_test])
         overall_results.append({'Architecture': '2. XGB AFT', 'Dataset': ds_name, **metrics})
 
         # --- 3. CatBoost Quantile ---
         print("      * Training CatBoost Quantile (Risk Bounds)...")
         model_cat = CatBoostRegressor(**p_cat)
-        model_cat.fit(X_train, y_train, sample_weight=weights_train, eval_set=(X_test, y_test), early_stopping_rounds=30)
+        model_cat.fit(X_train.loc[observed_train], y_train.loc[observed_train], sample_weight=weights_train[observed_train])
         preds_cat = model_cat.predict(X_test)[:, 1] 
-        metrics = compute_metrics(y_test, preds_cat)
+        metrics = compute_metrics(y_test.loc[observed_test], preds_cat[observed_test])
         overall_results.append({'Architecture': '3. Cat Quantile', 'Dataset': ds_name, **metrics})
 
         # --- 4. Soft Mixture of Experts (MoE) AFT ---
@@ -103,9 +110,10 @@ def evaluate_models():
         moe_model = TreeCompatibleMoE(n_experts=3)
         moe_model.fit(X_train, y_train, censor_train, sample_weight=weights_train)
         preds_moe = moe_model.predict(X_test)
-        metrics = compute_metrics(y_test, preds_moe)
+        metrics = compute_metrics(y_test.loc[observed_test], preds_moe[observed_test])
         overall_results.append({'Architecture': '4. Soft MoE AFT', 'Dataset': ds_name, **metrics})
 
+    print(f"Point metrics use {observed_test.sum()} observed test events; censored times are lower bounds.")
     print("\n[3/3] Generating Final Reports...")
     Path("reports/phase0").mkdir(parents=True, exist_ok=True)
     
