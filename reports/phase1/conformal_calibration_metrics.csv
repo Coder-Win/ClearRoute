@@ -1,3 +1,2 @@
-Method,PICP_Coverage_Pct,MPIW_Width_Mins
-Raw CatBoost Quantile (Pre-Calibration),59.599999999999994,150.65966013447888
-Conformal-Calibrated (Proposed Framework),80.0,176.2726230509103
+Method,Target_PICP_Pct,Actual_Test_PICP_Pct,MPIW_Width_Mins
+MoE Conformal-Calibrated Bounds,60.0,61.0,50.71046431263737
