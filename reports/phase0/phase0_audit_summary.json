@@ -1,12 +1,11 @@
 {
   "initial_rows": 500000,
-  "audited_rows": 449061,
-  "right_censored_count": 1782,
-  "secondary_crashes_flagged": 19838,
+  "audited_rows": 449669,
+  "right_censored_count": 1786,
   "splits": {
-    "train": 314342,
-    "test": 44907,
-    "val": 44906,
-    "cal": 44906
+    "train": 314768,
+    "val": 44967,
+    "cal": 44967,
+    "test": 44967
   }
 }
