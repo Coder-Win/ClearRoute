@@ -1,0 +1,21 @@
+Architecture,Dataset,MedAE (Mins),MAE (Mins),RMSE,MAPE (%)
+1. XGB Log,1. Struct Only,78.3,95.33,156.06,140.2
+2. XGB AFT,1. Struct Only,41.73,75.76,156.46,86.41
+3. Cat Quantile,1. Struct Only,42.56,75.96,154.23,93.39
+4. Soft MoE AFT,1. Struct Only,39.84,75.9,162.47,67.72
+1. XGB Log,2. Struct+Sem,101.22,111.88,162.22,174.77
+2. XGB AFT,2. Struct+Sem,37.32,74.65,156.37,86.92
+3. Cat Quantile,2. Struct+Sem,43.21,76.29,154.04,95.1
+4. Soft MoE AFT,2. Struct+Sem,50.21,106.61,203.13,97.0
+1. XGB Log,3. Struct+Emb,64.89,98.85,162.98,163.35
+2. XGB AFT,3. Struct+Emb,36.67,77.5,162.89,77.02
+3. Cat Quantile,3. Struct+Emb,34.09,72.53,154.62,84.48
+4. Soft MoE AFT,3. Struct+Emb,39.4,80.43,164.49,68.59
+1. XGB Log,4. Dumb Join,61.42,97.94,163.89,156.13
+2. XGB AFT,4. Dumb Join,38.91,78.27,161.88,80.03
+3. Cat Quantile,4. Dumb Join,35.4,74.92,155.66,89.75
+4. Soft MoE AFT,4. Dumb Join,53.49,141.87,292.84,153.88
+1. XGB Log,5. Gated Fusion,61.42,97.94,163.89,156.13
+2. XGB AFT,5. Gated Fusion,38.91,78.27,161.88,80.03
+3. Cat Quantile,5. Gated Fusion,35.4,74.92,155.66,89.75
+4. Soft MoE AFT,5. Gated Fusion,35.44,74.67,155.77,90.09

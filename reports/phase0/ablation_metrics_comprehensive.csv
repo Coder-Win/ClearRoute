@@ -1,21 +1,21 @@
 Architecture,Dataset,MedAE (Mins),MAE (Mins),RMSE,MAPE (%)
-1. XGB Log,1. Struct Only,29.24,69.94,174.38,83.51
-2. XGB AFT,1. Struct Only,29.05,68.77,175.82,74.14
-3. Cat Quantile,1. Struct Only,32.88,70.74,173.79,87.85
-4. Soft MoE AFT,1. Struct Only,31.7,69.5,174.37,80.07
-1. XGB Log,2. Struct+Sem,32.51,70.54,173.74,86.04
-2. XGB AFT,2. Struct+Sem,28.71,68.34,175.66,75.86
-3. Cat Quantile,2. Struct+Sem,33.28,70.87,173.44,91.68
-4. Soft MoE AFT,2. Struct+Sem,30.25,68.64,175.99,83.64
-1. XGB Log,3. Struct+Emb,29.05,68.97,175.73,78.47
-2. XGB AFT,3. Struct+Emb,30.0,71.31,176.96,86.27
-3. Cat Quantile,3. Struct+Emb,32.45,70.32,174.45,85.68
-4. Soft MoE AFT,3. Struct+Emb,25.3,68.49,174.55,86.07
-1. XGB Log,4. Dumb Join,32.08,68.55,176.29,75.85
-2. XGB AFT,4. Dumb Join,31.66,74.22,177.54,99.81
-3. Cat Quantile,4. Dumb Join,29.34,70.2,175.28,82.66
-4. Soft MoE AFT,4. Dumb Join,27.3,68.36,176.07,80.92
-1. XGB Log,5. Gated Fusion,32.08,68.55,176.29,75.85
-2. XGB AFT,5. Gated Fusion,31.66,74.22,177.54,99.81
-3. Cat Quantile,5. Gated Fusion,29.34,70.2,175.28,82.66
-4. Soft MoE AFT,5. Gated Fusion,26.59,70.14,175.94,88.54
+1. XGB Log,1. Struct Only,30.89,67.07,177.24,67.37
+2. XGB AFT,1. Struct Only,31.21,69.52,176.12,72.88
+3. Cat Quantile,1. Struct Only,30.27,67.39,176.88,69.95
+4. Soft MoE AFT,1. Struct Only,32.01,70.34,177.57,70.23
+1. XGB Log,2. Struct+Sem,29.69,67.51,175.76,72.61
+2. XGB AFT,2. Struct+Sem,30.87,69.88,176.11,78.35
+3. Cat Quantile,2. Struct+Sem,29.89,67.82,175.99,73.23
+4. Soft MoE AFT,2. Struct+Sem,30.29,71.19,175.42,91.05
+1. XGB Log,3. Struct+Emb,32.27,67.4,177.61,68.47
+2. XGB AFT,3. Struct+Emb,29.97,72.44,177.97,86.46
+3. Cat Quantile,3. Struct+Emb,26.75,67.92,176.59,70.53
+4. Soft MoE AFT,3. Struct+Emb,32.1,70.25,179.42,66.05
+1. XGB Log,4. Dumb Join,33.62,67.71,178.16,68.05
+2. XGB AFT,4. Dumb Join,33.53,72.93,178.35,89.18
+3. Cat Quantile,4. Dumb Join,30.21,68.61,177.21,72.02
+4. Soft MoE AFT,4. Dumb Join,30.29,68.89,177.07,77.32
+1. XGB Log,5. Gated Fusion,33.62,67.71,178.16,68.05
+2. XGB AFT,5. Gated Fusion,33.53,72.93,178.35,89.18
+3. Cat Quantile,5. Gated Fusion,30.21,68.61,177.21,72.02
+4. Soft MoE AFT,5. Gated Fusion,37.58,80.18,185.59,65.9
